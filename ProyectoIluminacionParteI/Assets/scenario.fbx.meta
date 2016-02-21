@@ -3,7 +3,7 @@ guid: 27af1a262327041b8a2ad4e03719e3d0
 timeCreated: 1455634355
 licenseType: Free
 ModelImporter:
-  serializedVersion: 18
+  serializedVersion: 19
   fileIDToRecycleName:
     100000: grpTerreno01
     100002: grpTerreno02
@@ -24,6 +24,8 @@ ModelImporter:
     100032: mTerreno01
     100034: rocas01
     100036: //RootNode
+    100038: grpEscenario01
+    100040: mBaseLamparasCorregidas01
     400000: grpTerreno01
     400002: grpTerreno02
     400004: mBaseLamparas01
@@ -43,6 +45,8 @@ ModelImporter:
     400032: mTerreno01
     400034: rocas01
     400036: //RootNode
+    400038: grpEscenario01
+    400040: mBaseLamparasCorregidas01
     2300000: mBaseLamparas01
     2300002: mBaseLuz01
     2300004: mCarta_01
@@ -59,6 +63,7 @@ ModelImporter:
     2300026: mPlanta02
     2300028: mTerreno01
     2300030: rocas01
+    2300032: mBaseLamparasCorregidas01
     3300000: mBaseLamparas01
     3300002: mBaseLuz01
     3300004: mCarta_01
@@ -75,6 +80,7 @@ ModelImporter:
     3300026: mPlanta02
     3300028: mTerreno01
     3300030: rocas01
+    3300032: mBaseLamparasCorregidas01
     4300000: mCasa01
     4300002: mCerco01
     4300004: mCarta_01
@@ -91,6 +97,7 @@ ModelImporter:
     4300026: mPlanta02
     4300028: mBaseLamparas01
     4300030: mBaseLuz01
+    4300032: mBaseLamparasCorregidas01
     9500000: //RootNode
   materials:
     importMaterials: 1
@@ -99,6 +106,7 @@ ModelImporter:
   animations:
     legacyGenerateAnimations: 4
     bakeSimulation: 0
+    resampleRotations: 1
     optimizeGameObjects: 0
     motionNodeName: 
     animationImportErrors: 
@@ -106,9 +114,9 @@ ModelImporter:
     animationRetargetingWarnings: 
     animationDoRetargetingWarnings: 0
     animationCompression: 1
-    animationRotationError: .5
-    animationPositionError: .5
-    animationScaleError: .5
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
     animationWrapMode: 0
     extraExposedTransformPaths: []
     clipAnimations: []
@@ -132,20 +140,19 @@ ModelImporter:
     useFileScale: 1
   tangentSpace:
     normalSmoothAngle: 60
-    splitTangentsAcrossUV: 1
     normalImportMode: 0
-    tangentImportMode: 1
+    tangentImportMode: 4
   importAnimation: 1
   copyAvatar: 0
   humanDescription:
     human: []
     skeleton: []
-    armTwist: .5
-    foreArmTwist: .5
-    upperLegTwist: .5
-    legTwist: .5
-    armStretch: .0500000007
-    legStretch: .0500000007
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
     feetSpacing: 0
     rootMotionBoneName: 
     hasTranslationDoF: 0
