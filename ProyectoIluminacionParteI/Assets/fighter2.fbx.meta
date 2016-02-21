@@ -1,0 +1,2280 @@
+fileFormatVersion: 2
+guid: c5906e6aa27b842d58bc12d63fe5fcbb
+timeCreated: 1455635800
+licenseType: Free
+ModelImporter:
+  serializedVersion: 18
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: pelea:animation_cnt_cluster_grp
+    100004: pelea:ankle_l_cnt
+    100006: pelea:ankle_l_cnt_null
+    100008: pelea:ankle_l_cnt_null2
+    100010: pelea:ankle_l_fk_ik_trans_cnt
+    100012: pelea:ankle_l_fk_ik_trans_cnt_null
+    100014: pelea:ankle_r_cnt
+    100016: pelea:ankle_r_cnt_null
+    100018: pelea:ankle_r_cnt_null2
+    100020: pelea:ankle_r_fk_ik_trans_cnt
+    100022: pelea:ankle_r_fk_ik_trans_cnt 1
+    100024: pelea:ankle_r_fk_ik_trans_cnt 2
+    100026: pelea:ankle_r_fk_ik_trans_cnt_null
+    100028: pelea:ankle_r_fk_ik_trans_cnt_null1
+    100030: pelea:ankle_r_fk_ik_trans_cnt_null2
+    100032: pelea:ankle_r_trans_cnt
+    100034: pelea:ankle_r_trans_cnt_null
+    100036: pelea:ankle_trans_cnt
+    100038: pelea:ankle_trans_cnt_null
+    100040: pelea:arm_l_cnt
+    100042: pelea:arm_l_cnt_null
+    100044: pelea:arm_l_cnt_null2
+    100046: pelea:arm_l_cnt_null3
+    100048: pelea:arm_l_fk_trans_cnt
+    100050: pelea:arm_l_fk_trans_cnt_null
+    100052: pelea:arm_l_gimbal_cnt
+    100054: pelea:arm_l_gimbal_cnt_null
+    100056: pelea:arm_l_ik_trans_cnt
+    100058: pelea:arm_l_ik_trans_cnt 1
+    100060: pelea:arm_l_ik_trans_cnt_null
+    100062: pelea:arm_l_ik_trans_cnt_null1
+    100064: pelea:arm_l_trans_cnt_grp
+    100066: pelea:arm_r_cnt
+    100068: pelea:arm_r_cnt_null
+    100070: pelea:arm_r_cnt_null2
+    100072: pelea:arm_r_cnt_null3
+    100074: pelea:arm_r_fk_trans_cnt
+    100076: pelea:arm_r_fk_trans_cnt_null
+    100078: pelea:arm_r_gimbal_cnt
+    100080: pelea:arm_r_gimbal_cnt_null
+    100082: pelea:arm_r_ik_trans_cnt
+    100084: pelea:arm_r_ik_trans_cnt 1
+    100086: pelea:arm_r_ik_trans_cnt_null
+    100088: pelea:arm_r_ik_trans_cnt_null1
+    100090: pelea:arm_r_trans_cnt
+    100092: pelea:arm_r_trans_cnt_grp
+    100094: pelea:arm_r_trans_cnt_null
+    100096: pelea:arm_trans_cnt
+    100098: pelea:arm_trans_cnt_null
+    100100: pelea:base_trans_cnt_grp
+    100102: pelea:belly_cnt
+    100104: pelea:belly_cnt_null
+    100106: pelea:belly_cnt_null2
+    100108: pelea:belly_trans_cnt
+    100110: pelea:belly_trans_cnt 1
+    100112: pelea:belly_trans_cnt_null
+    100114: pelea:belly_trans_cnt_null2
+    100116: pelea:bone_ankle_l
+    100118: pelea:bone_ankle_r
+    100120: pelea:bone_arm_l
+    100122: pelea:bone_arm_r
+    100124: pelea:bone_belly
+    100126: pelea:bone_brow_l
+    100128: pelea:bone_brow_r
+    100130: pelea:bone_cheek_l
+    100132: pelea:bone_cheek_r
+    100134: pelea:bone_chest
+    100136: pelea:bone_clavicle_l
+    100138: pelea:bone_clavicle_r
+    100140: pelea:bone_elbow_l
+    100142: pelea:bone_elbow_r
+    100144: pelea:bone_eye_l
+    100146: pelea:bone_eye_r
+    100148: pelea:bone_finger_index_l_base
+    100150: pelea:bone_finger_index_l_mid
+    100152: pelea:bone_finger_index_l_tip
+    100154: pelea:bone_finger_index_r_base
+    100156: pelea:bone_finger_index_r_mid
+    100158: pelea:bone_finger_index_r_tip
+    100160: pelea:bone_finger_middle_l_base
+    100162: pelea:bone_finger_middle_l_mid
+    100164: pelea:bone_finger_middle_l_tip
+    100166: pelea:bone_finger_middle_r_base
+    100168: pelea:bone_finger_middle_r_mid
+    100170: pelea:bone_finger_middle_r_tip
+    100172: pelea:bone_finger_pinky_l_base
+    100174: pelea:bone_finger_pinky_l_mid
+    100176: pelea:bone_finger_pinky_l_tip
+    100178: pelea:bone_finger_pinky_r_base
+    100180: pelea:bone_finger_pinky_r_mid
+    100182: pelea:bone_finger_pinky_r_tip
+    100184: pelea:bone_finger_ring_l_base
+    100186: pelea:bone_finger_ring_l_mid
+    100188: pelea:bone_finger_ring_l_tip
+    100190: pelea:bone_finger_ring_r_base
+    100192: pelea:bone_finger_ring_r_mid
+    100194: pelea:bone_finger_ring_r_tip
+    100196: pelea:bone_head
+    100198: pelea:bone_jaw
+    100200: pelea:bone_knee_l
+    100202: pelea:bone_knee_r
+    100204: pelea:bone_levator_l
+    100206: pelea:bone_levator_r
+    100208: pelea:bone_lid_l_bottom
+    100210: pelea:bone_lid_l_top
+    100212: pelea:bone_lid_r_bottom
+    100214: pelea:bone_lid_r_top
+    100216: pelea:bone_lips_bottom
+    100218: pelea:bone_lips_l
+    100220: pelea:bone_lips_r
+    100222: pelea:bone_lips_top
+    100224: pelea:bone_neck
+    100226: pelea:bone_nose_l
+    100228: pelea:bone_nose_r
+    100230: pelea:bone_radius_l
+    100232: pelea:bone_radius_r
+    100234: pelea:bone_root
+    100236: pelea:bone_shin_l
+    100238: pelea:bone_shin_r
+    100240: pelea:bone_spine_base
+    100242: pelea:bone_spine_lower
+    100244: pelea:bone_spine_mid
+    100246: pelea:bone_spine_upper
+    100248: pelea:bone_thigh_l
+    100250: pelea:bone_thigh_r
+    100252: pelea:bone_thumb_l_base
+    100254: pelea:bone_thumb_l_mid
+    100256: pelea:bone_thumb_l_tip
+    100258: pelea:bone_thumb_r_base
+    100260: pelea:bone_thumb_r_mid
+    100262: pelea:bone_thumb_r_tip
+    100264: pelea:bone_toe_l
+    100266: pelea:bone_toe_l_end
+    100268: pelea:bone_toe_r
+    100270: pelea:bone_toe_r_end
+    100272: pelea:bone_wrist_l
+    100274: pelea:bone_wrist_r
+    100276: pelea:brow_l_cnt
+    100278: pelea:brow_l_cnt_null
+    100280: pelea:brow_l_cnt_null2
+    100282: pelea:brow_r_cnt
+    100284: pelea:brow_r_cnt_null
+    100286: pelea:brow_r_cnt_null2
+    100288: pelea:brow_r_trans_cnt
+    100290: pelea:brow_r_trans_cnt_null
+    100292: pelea:brow_r_trans_cnt_null2
+    100294: pelea:brow_trans_cnt
+    100296: pelea:brow_trans_cnt_null
+    100298: pelea:brow_trans_cnt_null2
+    100300: pelea:character_cnt
+    100302: pelea:character_cnt_null
+    100304: pelea:cheek_l_cnt
+    100306: pelea:cheek_l_cnt_null
+    100308: pelea:cheek_l_cnt_null2
+    100310: pelea:cheek_r_cnt
+    100312: pelea:cheek_r_cnt_null
+    100314: pelea:cheek_r_cnt_null2
+    100316: pelea:cheek_r_trans_cnt
+    100318: pelea:cheek_r_trans_cnt_null
+    100320: pelea:cheek_r_trans_cnt_null2
+    100322: pelea:cheek_trans_cnt
+    100324: pelea:cheek_trans_cnt_null
+    100326: pelea:cheek_trans_cnt_null2
+    100328: pelea:chest_cnt
+    100330: pelea:chest_cnt_null
+    100332: pelea:chest_fk_ik_trans_cnt
+    100334: pelea:chest_fk_ik_trans_cnt_null
+    100336: pelea:chest_trans_cnt
+    100338: pelea:chest_trans_cnt_null
+    100340: pelea:chest_trans_cnt_null2
+    100342: pelea:clavicle_l_cnt
+    100344: pelea:clavicle_l_cnt_null
+    100346: pelea:clavicle_l_cnt_null2
+    100348: pelea:clavicle_r_cnt
+    100350: pelea:clavicle_r_cnt_null
+    100352: pelea:clavicle_r_cnt_null2
+    100354: pelea:clavicle_r_trans_cnt
+    100356: pelea:clavicle_r_trans_cnt_null
+    100358: pelea:clavicle_r_trans_cnt_null2
+    100360: pelea:clavicle_trans_cnt
+    100362: pelea:clavicle_trans_cnt_null
+    100364: pelea:clavicle_trans_cnt_null2
+    100366: pelea:cluster100Handle
+    100368: pelea:cluster101Handle
+    100370: pelea:cluster102Handle
+    100372: pelea:cluster103Handle
+    100374: pelea:cluster104Handle
+    100376: pelea:cluster105Handle
+    100378: pelea:cluster106Handle
+    100380: pelea:cluster107Handle
+    100382: pelea:cluster108Handle
+    100384: pelea:cluster109Handle
+    100386: pelea:cluster10Handle
+    100388: pelea:cluster110Handle
+    100390: pelea:cluster111Handle
+    100392: pelea:cluster112Handle
+    100394: pelea:cluster113Handle
+    100396: pelea:cluster114Handle
+    100398: pelea:cluster115Handle
+    100400: pelea:cluster116Handle
+    100402: pelea:cluster117Handle
+    100404: pelea:cluster118Handle
+    100406: pelea:cluster119Handle
+    100408: pelea:cluster11Handle
+    100410: pelea:cluster120Handle
+    100412: pelea:cluster121Handle
+    100414: pelea:cluster122Handle
+    100416: pelea:cluster123Handle
+    100418: pelea:cluster124Handle
+    100420: pelea:cluster125Handle
+    100422: pelea:cluster126Handle
+    100424: pelea:cluster127Handle
+    100426: pelea:cluster128Handle
+    100428: pelea:cluster129Handle
+    100430: pelea:cluster12Handle
+    100432: pelea:cluster130Handle
+    100434: pelea:cluster131Handle
+    100436: pelea:cluster132Handle
+    100438: pelea:cluster133Handle
+    100440: pelea:cluster134Handle
+    100442: pelea:cluster135Handle
+    100444: pelea:cluster136Handle
+    100446: pelea:cluster137Handle
+    100448: pelea:cluster138Handle
+    100450: pelea:cluster139Handle
+    100452: pelea:cluster13Handle
+    100454: pelea:cluster140Handle
+    100456: pelea:cluster141Handle
+    100458: pelea:cluster142Handle
+    100460: pelea:cluster14Handle
+    100462: pelea:cluster15Handle
+    100464: pelea:cluster16Handle
+    100466: pelea:cluster17Handle
+    100468: pelea:cluster18Handle
+    100470: pelea:cluster19Handle
+    100472: pelea:cluster1Handle
+    100474: pelea:cluster20Handle
+    100476: pelea:cluster21Handle
+    100478: pelea:cluster22Handle
+    100480: pelea:cluster23Handle
+    100482: pelea:cluster24Handle
+    100484: pelea:cluster25Handle
+    100486: pelea:cluster26Handle
+    100488: pelea:cluster27Handle
+    100490: pelea:cluster28Handle
+    100492: pelea:cluster29Handle
+    100494: pelea:cluster2Handle
+    100496: pelea:cluster30Handle
+    100498: pelea:cluster31Handle
+    100500: pelea:cluster32Handle
+    100502: pelea:cluster33Handle
+    100504: pelea:cluster34Handle
+    100506: pelea:cluster35Handle
+    100508: pelea:cluster36Handle
+    100510: pelea:cluster37Handle
+    100512: pelea:cluster38Handle
+    100514: pelea:cluster39Handle
+    100516: pelea:cluster3Handle
+    100518: pelea:cluster40Handle
+    100520: pelea:cluster41Handle
+    100522: pelea:cluster42Handle
+    100524: pelea:cluster43Handle
+    100526: pelea:cluster44Handle
+    100528: pelea:cluster45Handle
+    100530: pelea:cluster46Handle
+    100532: pelea:cluster47Handle
+    100534: pelea:cluster48Handle
+    100536: pelea:cluster49Handle
+    100538: pelea:cluster4Handle
+    100540: pelea:cluster50Handle
+    100542: pelea:cluster51Handle
+    100544: pelea:cluster52Handle
+    100546: pelea:cluster53Handle
+    100548: pelea:cluster54Handle
+    100550: pelea:cluster55Handle
+    100552: pelea:cluster56Handle
+    100554: pelea:cluster57Handle
+    100556: pelea:cluster58Handle
+    100558: pelea:cluster59Handle
+    100560: pelea:cluster5Handle
+    100562: pelea:cluster60Handle
+    100564: pelea:cluster61Handle
+    100566: pelea:cluster62Handle
+    100568: pelea:cluster63Handle
+    100570: pelea:cluster64Handle
+    100572: pelea:cluster65Handle
+    100574: pelea:cluster66Handle
+    100576: pelea:cluster67Handle
+    100578: pelea:cluster68Handle
+    100580: pelea:cluster69Handle
+    100582: pelea:cluster6Handle
+    100584: pelea:cluster70Handle
+    100586: pelea:cluster71Handle
+    100588: pelea:cluster72Handle
+    100590: pelea:cluster73Handle
+    100592: pelea:cluster74Handle
+    100594: pelea:cluster75Handle
+    100596: pelea:cluster76Handle
+    100598: pelea:cluster77Handle
+    100600: pelea:cluster78Handle
+    100602: pelea:cluster79Handle
+    100604: pelea:cluster7Handle
+    100606: pelea:cluster80Handle
+    100608: pelea:cluster81Handle
+    100610: pelea:cluster82Handle
+    100612: pelea:cluster83Handle
+    100614: pelea:cluster84Handle
+    100616: pelea:cluster85Handle
+    100618: pelea:cluster86Handle
+    100620: pelea:cluster87Handle
+    100622: pelea:cluster88Handle
+    100624: pelea:cluster89Handle
+    100626: pelea:cluster8Handle
+    100628: pelea:cluster90Handle
+    100630: pelea:cluster91Handle
+    100632: pelea:cluster92Handle
+    100634: pelea:cluster93Handle
+    100636: pelea:cluster94Handle
+    100638: pelea:cluster95Handle
+    100640: pelea:cluster96Handle
+    100642: pelea:cluster97Handle
+    100644: pelea:cluster98Handle
+    100646: pelea:cluster99Handle
+    100648: pelea:cluster9Handle
+    100650: pelea:cluster_grp
+    100652: pelea:curve1
+    100654: pelea:curve2
+    100656: pelea:digits_l_anim_cnt_grp
+    100658: pelea:digits_l_trans_grp
+    100660: pelea:digits_l_trans_grp1
+    100662: pelea:digits_r_anim_cnt_grp
+    100664: pelea:elbow_l_cnt
+    100666: pelea:elbow_l_cnt_null
+    100668: pelea:elbow_l_cnt_null2
+    100670: pelea:elbow_l_fk_trans_cnt
+    100672: pelea:elbow_l_fk_trans_cnt_null
+    100674: pelea:elbow_r_cnt
+    100676: pelea:elbow_r_cnt_null
+    100678: pelea:elbow_r_cnt_null2
+    100680: pelea:elbow_r_fk_trans_cnt
+    100682: pelea:elbow_r_fk_trans_cnt_null
+    100684: pelea:elbow_r_trans_cnt
+    100686: pelea:elbow_r_trans_cnt_null
+    100688: pelea:elbow_trans_cnt
+    100690: pelea:elbow_trans_cnt_null
+    100692: pelea:eye_l_cnt
+    100694: pelea:eye_l_cnt_null
+    100696: pelea:eye_l_cnt_null2
+    100698: pelea:eye_r_cnt
+    100700: pelea:eye_r_cnt_null
+    100702: pelea:eye_r_cnt_null2
+    100704: pelea:eye_r_trans_cnt
+    100706: pelea:eye_r_trans_cnt_null
+    100708: pelea:eye_r_trans_cnt_null2
+    100710: pelea:eye_trans_cnt
+    100712: pelea:eye_trans_cnt_null
+    100714: pelea:eye_trans_cnt_null2
+    100716: pelea:eyes_cnt
+    100718: pelea:eyes_cnt_null
+    100720: pelea:eyes_cnt_null2
+    100722: pelea:face_cnt
+    100724: pelea:face_cnt_camera
+    100726: pelea:face_cnt_grp
+    100728: pelea:face_cnt_null
+    100730: pelea:face_cnt_null2
+    100732: pelea:face_trans_cnt_grp
+    100734: pelea:fibula_l_fk_ik_trans_cnt
+    100736: pelea:fibula_l_fk_ik_trans_cnt_null
+    100738: pelea:fibula_r_fk_ik_trans_cnt
+    100740: pelea:fibula_r_fk_ik_trans_cnt_null
+    100742: pelea:fibula_r_trans_cnt
+    100744: pelea:fibula_r_trans_cnt_null
+    100746: pelea:finger_middle_base_trans_cnt
+    100748: pelea:finger_middle_base_trans_cnt 1
+    100750: pelea:finger_middle_base_trans_cnt_null
+    100752: pelea:finger_middle_base_trans_cnt_null 1
+    100754: pelea:finger_middle_base_trans_cnt_null2
+    100756: pelea:finger_middle_base_trans_cnt_null2 1
+    100758: pelea:finger_middle_l_cnt
+    100760: pelea:finger_middle_l_cnt_null
+    100762: pelea:finger_middle_l_cnt_null2
+    100764: pelea:finger_middle_mid_l_cnt
+    100766: pelea:finger_middle_mid_l_cnt_null
+    100768: pelea:finger_middle_mid_l_cnt_null2
+    100770: pelea:finger_middle_mid_r_cnt
+    100772: pelea:finger_middle_mid_r_cnt_null
+    100774: pelea:finger_middle_mid_r_cnt_null2
+    100776: pelea:finger_middle_mid_trans_cnt
+    100778: pelea:finger_middle_mid_trans_cnt 1
+    100780: pelea:finger_middle_mid_trans_cnt_null
+    100782: pelea:finger_middle_mid_trans_cnt_null 1
+    100784: pelea:finger_middle_r_cnt
+    100786: pelea:finger_middle_r_cnt_null
+    100788: pelea:finger_middle_r_cnt_null2
+    100790: pelea:finger_middle_tip_l_cnt
+    100792: pelea:finger_middle_tip_l_cnt_null
+    100794: pelea:finger_middle_tip_l_cnt_null2
+    100796: pelea:finger_middle_tip_r_cnt
+    100798: pelea:finger_middle_tip_r_cnt_null
+    100800: pelea:finger_middle_tip_r_cnt_null2
+    100802: pelea:finger_middle_tip_trans_cnt
+    100804: pelea:finger_middle_tip_trans_cnt 1
+    100806: pelea:finger_middle_tip_trans_cnt_null
+    100808: pelea:finger_middle_tip_trans_cnt_null 1
+    100810: pelea:finger_pinky_base_trans_cnt
+    100812: pelea:finger_pinky_base_trans_cnt 1
+    100814: pelea:finger_pinky_base_trans_cnt_null
+    100816: pelea:finger_pinky_base_trans_cnt_null 1
+    100818: pelea:finger_pinky_base_trans_cnt_null2
+    100820: pelea:finger_pinky_base_trans_cnt_null2 1
+    100822: pelea:finger_pinky_l_cnt
+    100824: pelea:finger_pinky_l_cnt_null
+    100826: pelea:finger_pinky_l_cnt_null2
+    100828: pelea:finger_pinky_mid_l_cnt
+    100830: pelea:finger_pinky_mid_l_cnt_null
+    100832: pelea:finger_pinky_mid_l_cnt_null2
+    100834: pelea:finger_pinky_mid_r_cnt
+    100836: pelea:finger_pinky_mid_r_cnt_null
+    100838: pelea:finger_pinky_mid_r_cnt_null2
+    100840: pelea:finger_pinky_mid_trans_cnt
+    100842: pelea:finger_pinky_mid_trans_cnt 1
+    100844: pelea:finger_pinky_mid_trans_cnt_null
+    100846: pelea:finger_pinky_mid_trans_cnt_null 1
+    100848: pelea:finger_pinky_r_cnt
+    100850: pelea:finger_pinky_r_cnt_null
+    100852: pelea:finger_pinky_r_cnt_null2
+    100854: pelea:finger_pinky_tip_l_cnt
+    100856: pelea:finger_pinky_tip_l_cnt_null
+    100858: pelea:finger_pinky_tip_l_cnt_null2
+    100860: pelea:finger_pinky_tip_r_cnt
+    100862: pelea:finger_pinky_tip_r_cnt_null
+    100864: pelea:finger_pinky_tip_r_cnt_null2
+    100866: pelea:finger_pinky_tip_trans_cnt
+    100868: pelea:finger_pinky_tip_trans_cnt 1
+    100870: pelea:finger_pinky_tip_trans_cnt_null
+    100872: pelea:finger_pinky_tip_trans_cnt_null 1
+    100874: pelea:finger_pointer_base_trans_cnt
+    100876: pelea:finger_pointer_base_trans_cnt 1
+    100878: pelea:finger_pointer_base_trans_cnt_null
+    100880: pelea:finger_pointer_base_trans_cnt_null 1
+    100882: pelea:finger_pointer_base_trans_cnt_null2
+    100884: pelea:finger_pointer_base_trans_cnt_null2 1
+    100886: pelea:finger_pointer_l_cnt
+    100888: pelea:finger_pointer_l_cnt_null
+    100890: pelea:finger_pointer_l_cnt_null2
+    100892: pelea:finger_pointer_mid_l_cnt
+    100894: pelea:finger_pointer_mid_l_cnt_null
+    100896: pelea:finger_pointer_mid_l_cnt_null2
+    100898: pelea:finger_pointer_mid_r_cnt
+    100900: pelea:finger_pointer_mid_r_cnt_null
+    100902: pelea:finger_pointer_mid_r_cnt_null2
+    100904: pelea:finger_pointer_mid_trans_cnt
+    100906: pelea:finger_pointer_mid_trans_cnt 1
+    100908: pelea:finger_pointer_mid_trans_cnt_null
+    100910: pelea:finger_pointer_mid_trans_cnt_null 1
+    100912: pelea:finger_pointer_r_cnt
+    100914: pelea:finger_pointer_r_cnt_null
+    100916: pelea:finger_pointer_r_cnt_null2
+    100918: pelea:finger_pointer_tip_l_cnt
+    100920: pelea:finger_pointer_tip_l_cnt_null
+    100922: pelea:finger_pointer_tip_l_cnt_null2
+    100924: pelea:finger_pointer_tip_r_cnt
+    100926: pelea:finger_pointer_tip_r_cnt_null
+    100928: pelea:finger_pointer_tip_r_cnt_null2
+    100930: pelea:finger_pointer_tip_trans_cnt
+    100932: pelea:finger_pointer_tip_trans_cnt 1
+    100934: pelea:finger_pointer_tip_trans_cnt_null
+    100936: pelea:finger_pointer_tip_trans_cnt_null 1
+    100938: pelea:finger_ring_base_trans_cnt
+    100940: pelea:finger_ring_base_trans_cnt 1
+    100942: pelea:finger_ring_base_trans_cnt_null
+    100944: pelea:finger_ring_base_trans_cnt_null 1
+    100946: pelea:finger_ring_base_trans_cnt_null2
+    100948: pelea:finger_ring_base_trans_cnt_null2 1
+    100950: pelea:finger_ring_l_cnt
+    100952: pelea:finger_ring_l_cnt_null
+    100954: pelea:finger_ring_l_cnt_null2
+    100956: pelea:finger_ring_mid_l_cnt
+    100958: pelea:finger_ring_mid_l_cnt_null
+    100960: pelea:finger_ring_mid_l_cnt_null2
+    100962: pelea:finger_ring_mid_r_cnt
+    100964: pelea:finger_ring_mid_r_cnt_null
+    100966: pelea:finger_ring_mid_r_cnt_null2
+    100968: pelea:finger_ring_mid_trans_cnt
+    100970: pelea:finger_ring_mid_trans_cnt 1
+    100972: pelea:finger_ring_mid_trans_cnt_null
+    100974: pelea:finger_ring_mid_trans_cnt_null 1
+    100976: pelea:finger_ring_r_cnt
+    100978: pelea:finger_ring_r_cnt_null
+    100980: pelea:finger_ring_r_cnt_null2
+    100982: pelea:finger_ring_tip_l_cnt
+    100984: pelea:finger_ring_tip_l_cnt_null
+    100986: pelea:finger_ring_tip_l_cnt_null2
+    100988: pelea:finger_ring_tip_r_cnt
+    100990: pelea:finger_ring_tip_r_cnt_null
+    100992: pelea:finger_ring_tip_r_cnt_null2
+    100994: pelea:finger_ring_tip_trans_cnt
+    100996: pelea:finger_ring_tip_trans_cnt 1
+    100998: pelea:fk_bone_ankle_l
+    101000: pelea:fk_bone_ankle_r
+    101002: pelea:fk_bone_arm_l
+    101004: pelea:fk_bone_arm_l 1
+    101006: pelea:fk_bone_arm_r
+    101008: pelea:fk_bone_arm_r 1
+    101010: pelea:fk_bone_brow_l
+    101012: pelea:fk_bone_brow_r
+    101014: pelea:fk_bone_cheek_l
+    101016: pelea:fk_bone_cheek_r
+    101018: pelea:fk_bone_chest
+    101020: pelea:fk_bone_clavicle_l
+    101022: pelea:fk_bone_clavicle_l1
+    101024: pelea:fk_bone_clavicle_r
+    101026: pelea:fk_bone_clavicle_r1
+    101028: pelea:fk_bone_elbow_l
+    101030: pelea:fk_bone_elbow_l 1
+    101032: pelea:fk_bone_elbow_r
+    101034: pelea:fk_bone_elbow_r 1
+    101036: pelea:fk_bone_eye_l
+    101038: pelea:fk_bone_eye_r
+    101040: pelea:fk_bone_finger_index_l_base
+    101042: pelea:fk_bone_finger_index_l_base 1
+    101044: pelea:fk_bone_finger_index_l_mid
+    101046: pelea:fk_bone_finger_index_l_mid 1
+    101048: pelea:fk_bone_finger_index_l_tip
+    101050: pelea:fk_bone_finger_index_l_tip 1
+    101052: pelea:fk_bone_finger_index_r_base
+    101054: pelea:fk_bone_finger_index_r_base 1
+    101056: pelea:fk_bone_finger_index_r_mid
+    101058: pelea:fk_bone_finger_index_r_mid 1
+    101060: pelea:fk_bone_finger_index_r_tip
+    101062: pelea:fk_bone_finger_index_r_tip 1
+    101064: pelea:fk_bone_finger_middle_l_base
+    101066: pelea:fk_bone_finger_middle_l_base 1
+    101068: pelea:fk_bone_finger_middle_l_mid
+    101070: pelea:fk_bone_finger_middle_l_mid 1
+    101072: pelea:fk_bone_finger_middle_l_tip
+    101074: pelea:fk_bone_finger_middle_l_tip 1
+    101076: pelea:fk_bone_finger_middle_r_base
+    101078: pelea:fk_bone_finger_middle_r_base 1
+    101080: pelea:fk_bone_finger_middle_r_mid
+    101082: pelea:fk_bone_finger_middle_r_mid 1
+    101084: pelea:fk_bone_finger_middle_r_tip
+    101086: pelea:fk_bone_finger_middle_r_tip 1
+    101088: pelea:fk_bone_finger_pinky_l_base
+    101090: pelea:fk_bone_finger_pinky_l_base 1
+    101092: pelea:fk_bone_finger_pinky_l_mid
+    101094: pelea:fk_bone_finger_pinky_l_mid 1
+    101096: pelea:fk_bone_finger_pinky_l_tip
+    101098: pelea:fk_bone_finger_pinky_l_tip 1
+    101100: pelea:fk_bone_finger_pinky_r_base
+    101102: pelea:fk_bone_finger_pinky_r_base 1
+    101104: pelea:fk_bone_finger_pinky_r_mid
+    101106: pelea:fk_bone_finger_pinky_r_mid 1
+    101108: pelea:fk_bone_finger_pinky_r_tip
+    101110: pelea:fk_bone_finger_pinky_r_tip 1
+    101112: pelea:fk_bone_finger_ring_l_base
+    101114: pelea:fk_bone_finger_ring_l_base 1
+    101116: pelea:fk_bone_finger_ring_l_mid
+    101118: pelea:fk_bone_finger_ring_l_mid 1
+    101120: pelea:fk_bone_finger_ring_l_tip
+    101122: pelea:fk_bone_finger_ring_l_tip 1
+    101124: pelea:fk_bone_finger_ring_r_base
+    101126: pelea:fk_bone_finger_ring_r_base 1
+    101128: pelea:fk_bone_finger_ring_r_mid
+    101130: pelea:fk_bone_finger_ring_r_mid 1
+    101132: pelea:fk_bone_finger_ring_r_tip
+    101134: pelea:fk_bone_finger_ring_r_tip 1
+    101136: pelea:fk_bone_head
+    101138: pelea:fk_bone_jaw
+    101140: pelea:fk_bone_knee_l
+    101142: pelea:fk_bone_knee_r
+    101144: pelea:fk_bone_levator_l
+    101146: pelea:fk_bone_levator_r
+    101148: pelea:fk_bone_lid_l_bottom
+    101150: pelea:fk_bone_lid_l_top
+    101152: pelea:fk_bone_lid_r_bottom
+    101154: pelea:fk_bone_lid_r_top
+    101156: pelea:fk_bone_lips_bottom
+    101158: pelea:fk_bone_lips_l
+    101160: pelea:fk_bone_lips_r
+    101162: pelea:fk_bone_lips_top
+    101164: pelea:fk_bone_neck
+    101166: pelea:fk_bone_nose_l
+    101168: pelea:fk_bone_nose_r
+    101170: pelea:fk_bone_radius_l
+    101172: pelea:fk_bone_radius_l 1
+    101174: pelea:fk_bone_radius_r
+    101176: pelea:fk_bone_radius_r 1
+    101178: pelea:fk_bone_root
+    101180: pelea:fk_bone_shin_l
+    101182: pelea:fk_bone_shin_r
+    101184: pelea:fk_bone_spine_base
+    101186: pelea:fk_bone_spine_lower
+    101188: pelea:fk_bone_spine_mid
+    101190: pelea:fk_bone_spine_upper
+    101192: pelea:fk_bone_thigh_l
+    101194: pelea:fk_bone_thigh_r
+    101196: pelea:fk_bone_thumb_l_base
+    101198: pelea:fk_bone_thumb_l_base 1
+    101200: pelea:fk_bone_thumb_l_mid
+    101202: pelea:fk_bone_thumb_l_mid 1
+    101204: pelea:fk_bone_thumb_l_tip
+    101206: pelea:fk_bone_thumb_l_tip 1
+    101208: pelea:fk_bone_thumb_r_base
+    101210: pelea:fk_bone_thumb_r_base 1
+    101212: pelea:fk_bone_thumb_r_mid
+    101214: pelea:fk_bone_thumb_r_mid 1
+    101216: pelea:fk_bone_thumb_r_tip
+    101218: pelea:fk_bone_thumb_r_tip 1
+    101220: pelea:fk_bone_toe_l
+    101222: pelea:fk_bone_toe_l_end
+    101224: pelea:fk_bone_toe_r
+    101226: pelea:fk_bone_toe_r_end
+    101228: pelea:fk_bone_wrist_l
+    101230: pelea:fk_bone_wrist_l 1
+    101232: pelea:fk_bone_wrist_r
+    101234: pelea:fk_bone_wrist_r 1
+    101236: pelea:foot_l_ik_cnt
+    101238: pelea:foot_l_ik_cnt_null
+    101240: pelea:foot_l_ik_cnt_null2
+    101242: pelea:foot_r_ik_cnt
+    101244: pelea:foot_r_ik_cnt_null
+    101246: pelea:foot_r_ik_cnt_null2
+    101248: pelea:fringer_ring_tip_trans_cnt_null
+    101250: pelea:fringer_ring_tip_trans_cnt_null 1
+    101252: pelea:geometry_grp
+    101254: pelea:group10
+    101256: pelea:group11
+    101258: pelea:group12
+    101260: pelea:group13
+    101262: pelea:group14
+    101264: pelea:group15
+    101266: pelea:group16
+    101268: pelea:group17
+    101270: pelea:group18
+    101272: pelea:group19
+    101274: pelea:group20
+    101276: pelea:group3
+    101278: pelea:group3 1
+    101280: pelea:group3 10
+    101282: pelea:group3 11
+    101284: pelea:group3 12
+    101286: pelea:group3 13
+    101288: pelea:group3 14
+    101290: pelea:group3 15
+    101292: pelea:group3 16
+    101294: pelea:group3 17
+    101296: pelea:group3 18
+    101298: pelea:group3 19
+    101300: pelea:group3 2
+    101302: pelea:group3 20
+    101304: pelea:group3 21
+    101306: pelea:group3 22
+    101308: pelea:group3 23
+    101310: pelea:group3 24
+    101312: pelea:group3 25
+    101314: pelea:group3 26
+    101316: pelea:group3 27
+    101318: pelea:group3 28
+    101320: pelea:group3 29
+    101322: pelea:group3 3
+    101324: pelea:group3 30
+    101326: pelea:group3 31
+    101328: pelea:group3 32
+    101330: pelea:group3 33
+    101332: pelea:group3 34
+    101334: pelea:group3 35
+    101336: pelea:group3 36
+    101338: pelea:group3 4
+    101340: pelea:group3 5
+    101342: pelea:group3 6
+    101344: pelea:group3 7
+    101346: pelea:group3 8
+    101348: pelea:group3 9
+    101350: pelea:group38
+    101352: pelea:group39
+    101354: pelea:group4
+    101356: pelea:group40
+    101358: pelea:group41
+    101360: pelea:group42
+    101362: pelea:group43
+    101364: pelea:group44
+    101366: pelea:group45
+    101368: pelea:group46
+    101370: pelea:group47
+    101372: pelea:group48
+    101374: pelea:group49
+    101376: pelea:group5
+    101378: pelea:group50
+    101380: pelea:group51
+    101382: pelea:group52
+    101384: pelea:group53
+    101386: pelea:group54
+    101388: pelea:group55
+    101390: pelea:group57
+    101392: pelea:group6
+    101394: pelea:group7
+    101396: pelea:group8
+    101398: pelea:group82
+    101400: pelea:group83
+    101402: pelea:group9
+    101404: pelea:hand_ik_cnt_grp
+    101406: pelea:head_cnt
+    101408: pelea:head_cnt_null
+    101410: pelea:head_cnt_null2
+    101412: pelea:head_trans_cnt
+    101414: pelea:head_trans_cnt_null
+    101416: pelea:head_trans_cnt_null2
+    101418: pelea:heel_l_cnt
+    101420: pelea:heel_l_cnt 1
+    101422: pelea:heel_l_cnt_null
+    101424: pelea:heel_l_cnt_null1
+    101426: pelea:heel_r_cnt
+    101428: pelea:heel_r_cnt 1
+    101430: pelea:heel_r_cnt_null
+    101432: pelea:heel_r_cnt_null1
+    101434: pelea:helper_nodes_grp
+    101436: pelea:hips_cnt
+    101438: pelea:hips_cnt_null
+    101440: pelea:ik_bone_ankle_l
+    101442: pelea:ik_bone_ankle_l 1
+    101444: pelea:ik_bone_ankle_r
+    101446: pelea:ik_bone_ankle_r 1
+    101448: pelea:ik_bone_arm_l
+    101450: pelea:ik_bone_arm_r
+    101452: pelea:ik_bone_chest
+    101454: pelea:ik_bone_clavicle_l
+    101456: pelea:ik_bone_clavicle_r
+    101458: pelea:ik_bone_elbow_l
+    101460: pelea:ik_bone_elbow_r
+    101462: pelea:ik_bone_knee_l
+    101464: pelea:ik_bone_knee_l 1
+    101466: pelea:ik_bone_knee_r
+    101468: pelea:ik_bone_knee_r 1
+    101470: pelea:ik_bone_radius_l
+    101472: pelea:ik_bone_radius_r
+    101474: pelea:ik_bone_root
+    101476: pelea:ik_bone_shin_l
+    101478: pelea:ik_bone_shin_l 1
+    101480: pelea:ik_bone_shin_r
+    101482: pelea:ik_bone_shin_r 1
+    101484: pelea:ik_bone_spine_base
+    101486: pelea:ik_bone_spine_lower
+    101488: pelea:ik_bone_spine_mid
+    101490: pelea:ik_bone_spine_upper
+    101492: pelea:ik_bone_thigh_l
+    101494: pelea:ik_bone_thigh_l1
+    101496: pelea:ik_bone_thigh_l2
+    101498: pelea:ik_bone_thigh_r
+    101500: pelea:ik_bone_thigh_r1
+    101502: pelea:ik_bone_thigh_r2
+    101504: pelea:ik_bone_toe_l
+    101506: pelea:ik_bone_toe_l 1
+    101508: pelea:ik_bone_toe_l_end
+    101510: pelea:ik_bone_toe_l_end 1
+    101512: pelea:ik_bone_toe_r
+    101514: pelea:ik_bone_toe_r 1
+    101516: pelea:ik_bone_toe_r_end
+    101518: pelea:ik_bone_toe_r_end 1
+    101520: pelea:ik_bone_wrist_l
+    101522: pelea:ik_bone_wrist_r
+    101524: pelea:ik_trans_cnt_grp
+    101526: pelea:ikHandle11
+    101528: pelea:ikHandle13
+    101530: pelea:ikHandle15
+    101532: pelea:ikHandle16
+    101534: pelea:ikHandle17
+    101536: pelea:ikHandle18
+    101538: pelea:ikHandle19
+    101540: pelea:jaw_cnt
+    101542: pelea:jaw_cnt_null
+    101544: pelea:jaw_cnt_null2
+    101546: pelea:jaw_trans_cnt
+    101548: pelea:jaw_trans_cnt_null
+    101550: pelea:jaw_trans_cnt_null2
+    101552: pelea:knee_l_cnt
+    101554: pelea:knee_l_cnt_null
+    101556: pelea:knee_l_cnt_null2
+    101558: pelea:knee_l_fk_ik_trans_cnt
+    101560: pelea:knee_l_fk_ik_trans_cnt_null
+    101562: pelea:knee_r_cnt
+    101564: pelea:knee_r_cnt_null
+    101566: pelea:knee_r_cnt_null2
+    101568: pelea:knee_r_fk_ik_trans_cnt
+    101570: pelea:knee_r_fk_ik_trans_cnt_null
+    101572: pelea:knee_r_trans_cnt
+    101574: pelea:knee_r_trans_cnt_null
+    101576: pelea:knee_trans_cnt
+    101578: pelea:knee_trans_cnt_null
+    101580: pelea:leg_l_ikHandle
+    101582: pelea:leg_l_trans_grp
+    101584: pelea:leg_l_trans_orient
+    101586: pelea:leg_l_trans_orient_null
+    101588: pelea:leg_r_trans_grp
+    101590: pelea:levator_l_cnt
+    101592: pelea:levator_l_cnt_null
+    101594: pelea:levator_l_cnt_null2
+    101596: pelea:levator_r_cnt
+    101598: pelea:levator_r_cnt_null
+    101600: pelea:levator_r_cnt_null2
+    101602: pelea:levator_r_trans_cnt
+    101604: pelea:levator_r_trans_cnt_null
+    101606: pelea:levator_r_trans_cnt_null2
+    101608: pelea:levator_trans_cnt
+    101610: pelea:levator_trans_cnt_null
+    101612: pelea:levator_trans_cnt_null2
+    101614: pelea:lid_l_bottom_cnt
+    101616: pelea:lid_l_bottom_cnt_null
+    101618: pelea:lid_l_bottom_cnt_null2
+    101620: pelea:lid_l_top_cnt
+    101622: pelea:lid_l_top_cnt_null
+    101624: pelea:lid_l_top_cnt_null2
+    101626: pelea:lid_r_bottom_cnt
+    101628: pelea:lid_r_bottom_cnt_null
+    101630: pelea:lid_r_bottom_cnt_null2
+    101632: pelea:lid_r_top_cnt
+    101634: pelea:lid_r_top_cnt_null
+    101636: pelea:lid_r_top_cnt_null2
+    101638: pelea:lids_r_trans_cnt
+    101640: pelea:lids_r_trans_cnt_null
+    101642: pelea:lids_r_trans_cnt_null2
+    101644: pelea:lids_trans_cnt
+    101646: pelea:lids_trans_cnt_null
+    101648: pelea:lids_trans_cnt_null2
+    101650: pelea:lip_bottom_cnt
+    101652: pelea:lip_bottom_cnt_null
+    101654: pelea:lip_bottom_cnt_null2
+    101656: pelea:lip_top_cnt
+    101658: pelea:lip_top_cnt_null
+    101660: pelea:lip_top_cnt_null2
+    101662: pelea:lip_trans_bottom_cnt
+    101664: pelea:lip_trans_bottom_cnt_null
+    101666: pelea:lip_trans_bottom_cnt_null2
+    101668: pelea:lip_trans_top_cnt
+    101670: pelea:lip_trans_top_cnt_null
+    101672: pelea:lip_trans_top_cnt_null2
+    101674: pelea:lips_l_cnt
+    101676: pelea:lips_l_cnt_null
+    101678: pelea:lips_l_cnt_null2
+    101680: pelea:lips_l_trans_cnt
+    101682: pelea:lips_l_trans_cnt_null
+    101684: pelea:lips_l_trans_cnt_null2
+    101686: pelea:lips_r_cnt
+    101688: pelea:lips_r_cnt_null
+    101690: pelea:lips_r_cnt_null2
+    101692: pelea:lips_r_trans_cnt
+    101694: pelea:lips_r_trans_cnt_null
+    101696: pelea:lips_r_trans_cnt_null2
+    101698: pelea:locator2
+    101700: pelea:locator2 1
+    101702: pelea:locator2 10
+    101704: pelea:locator2 11
+    101706: pelea:locator2 12
+    101708: pelea:locator2 13
+    101710: pelea:locator2 14
+    101712: pelea:locator2 15
+    101714: pelea:locator2 16
+    101716: pelea:locator2 17
+    101718: pelea:locator2 18
+    101720: pelea:locator2 19
+    101722: pelea:locator2 2
+    101724: pelea:locator2 20
+    101726: pelea:locator2 21
+    101728: pelea:locator2 22
+    101730: pelea:locator2 23
+    101732: pelea:locator2 24
+    101734: pelea:locator2 25
+    101736: pelea:locator2 26
+    101738: pelea:locator2 27
+    101740: pelea:locator2 28
+    101742: pelea:locator2 29
+    101744: pelea:locator2 3
+    101746: pelea:locator2 30
+    101748: pelea:locator2 31
+    101750: pelea:locator2 32
+    101752: pelea:locator2 33
+    101754: pelea:locator2 34
+    101756: pelea:locator2 35
+    101758: pelea:locator2 36
+    101760: pelea:locator2 4
+    101762: pelea:locator2 5
+    101764: pelea:locator2 6
+    101766: pelea:locator2 7
+    101768: pelea:locator2 8
+    101770: pelea:locator2 9
+    101772: pelea:locator3
+    101774: pelea:locator9
+    101776: pelea:neck_cnt_null
+    101778: pelea:neck_cnt_null 1
+    101780: pelea:neck_cnt_null2
+    101782: pelea:neck_trans_cnt
+    101784: pelea:neck_trans_cnt_null
+    101786: pelea:neck_trans_cnt_null2
+    101788: pelea:nose_cnt
+    101790: pelea:nose_cnt_null
+    101792: pelea:nose_cnt_null2
+    101794: pelea:nose_r_trans_cnt
+    101796: pelea:nose_r_trans_cnt_null
+    101798: pelea:nose_r_trans_cnt_null2
+    101800: pelea:nose_trans_cnt
+    101802: pelea:nose_trans_cnt_null
+    101804: pelea:nose_trans_cnt_null2
+    101806: pelea:radiul_trans_cnt
+    101808: pelea:radius_l_cnt
+    101810: pelea:radius_l_cnt_null
+    101812: pelea:radius_l_cnt_null2
+    101814: pelea:radius_l_fk_trans_cnt
+    101816: pelea:radius_l_fk_trans_cnt_null
+    101818: pelea:radius_r_cnt
+    101820: pelea:radius_r_cnt_null
+    101822: pelea:radius_r_cnt_null2
+    101824: pelea:radius_r_fk_trans_cnt
+    101826: pelea:radius_r_fk_trans_cnt_null
+    101828: pelea:radius_r_trans_cnt
+    101830: pelea:radius_r_trans_cnt_null
+    101832: pelea:radius_trans_cnt_null
+    101834: pelea:retarget_cnt_cluster_grp
+    101836: pelea:root_cnt
+    101838: pelea:root_l_ik_cnt
+    101840: pelea:root_l_ik_cnt_null
+    101842: pelea:root_l_ik_cnt_null2
+    101844: pelea:root_r_ik_cnt
+    101846: pelea:root_r_ik_cnt_null
+    101848: pelea:root_r_ik_cnt_null2
+    101850: pelea:root_trans_cnt
+    101852: pelea:shin_l_cnt
+    101854: pelea:shin_l_cnt_null
+    101856: pelea:shin_l_cnt_null2
+    101858: pelea:shin_r_cnt
+    101860: pelea:shin_r_cnt_null
+    101862: pelea:shin_r_cnt_null2
+    101864: pelea:shin_trans_cnt
+    101866: pelea:shin_trans_cnt_null
+    101868: pelea:shoulder_l_trans_orient
+    101870: pelea:shoulder_l_trans_orient_null
+    101872: pelea:shoulder_r_trans_orient
+    101874: pelea:shoulder_r_trans_orient_null
+    101876: pelea:spine_base_cnt
+    101878: pelea:spine_base_cnt_null
+    101880: pelea:spine_base_fk_ik_trans_cnt
+    101882: pelea:spine_base_fk_ik_trans_cnt_null
+    101884: pelea:spine_base_trans_cnt
+    101886: pelea:spine_base_trans_cnt_null
+    101888: pelea:spine_base_trans_cnt_null2
+    101890: pelea:spine_low_cnt
+    101892: pelea:spine_low_cnt_null
+    101894: pelea:spine_low_fk_ik_trans_cnt
+    101896: pelea:spine_low_fk_ik_trans_cnt_null
+    101898: pelea:spine_low_trans_cnt
+    101900: pelea:spine_low_trans_cnt_null
+    101902: pelea:spine_low_trans_cnt_null 1
+    101904: pelea:spine_low_trans_cnt_null5
+    101906: pelea:spine_low_trans_cnt_null6
+    101908: pelea:spine_mid_cnt
+    101910: pelea:spine_mid_cnt_null
+    101912: pelea:spine_mid_fk_ik_trans_cnt
+    101914: pelea:spine_mid_fk_ik_trans_cnt_null
+    101916: pelea:spine_mid_trans_cnt
+    101918: pelea:spine_mid_trans_cnt_null
+    101920: pelea:spine_mid_trans_cnt_null2
+    101922: pelea:spine_trans_cnt_grp
+    101924: pelea:spine_trans_fk_ik_cnt_grp
+    101926: pelea:spine_upper_cnt
+    101928: pelea:spine_upper_cnt_null
+    101930: pelea:spine_upper_fk_ik_trans_cnt
+    101932: pelea:spine_upper_fk_ik_trans_cnt_null
+    101934: pelea:spine_upper_trans_cnt
+    101936: pelea:spine_upper_trans_cnt 1
+    101938: pelea:spine_upper_trans_cnt 2
+    101940: pelea:spine_upper_trans_cnt_null
+    101942: pelea:spine_upper_trans_cnt_null 1
+    101944: pelea:spine_upper_trans_cnt_null2
+    101946: pelea:spine_upper_trans_cnt_null5
+    101948: pelea:thigh_l_cnt
+    101950: pelea:thigh_l_cnt_null
+    101952: pelea:thigh_l_cnt_null2
+    101954: pelea:thigh_l_fk_ik_trans_cnt
+    101956: pelea:thigh_l_fk_ik_trans_cnt_null
+    101958: pelea:thigh_r_cnt
+    101960: pelea:thigh_r_cnt_null
+    101962: pelea:thigh_r_cnt_null3
+    101964: pelea:thigh_r_fk_ik_trans_cnt
+    101966: pelea:thigh_r_fk_ik_trans_cnt_null
+    101968: pelea:thigh_r_trans_cnt
+    101970: pelea:thigh_r_trans_cnt_null
+    101972: pelea:thigh_trans_cnt
+    101974: pelea:thigh_trans_cnt_null
+    101976: pelea:thumb_base_trans_cnt
+    101978: pelea:thumb_base_trans_cnt_null
+    101980: pelea:thumb_base_trans_cnt_null 1
+    101982: pelea:thumb_base_trans_cnt_null2
+    101984: pelea:thumb_base_trans_cnt_null2 1
+    101986: pelea:thumb_l_base_trans_cnt
+    101988: pelea:thumb_l_cnt
+    101990: pelea:thumb_l_cnt_null
+    101992: pelea:thumb_l_cnt_null2
+    101994: pelea:thumb_l_mid_trans_cnt
+    101996: pelea:thumb_l_tip_trans_cnt
+    101998: pelea:thumb_mid_l_cnt
+    102000: pelea:thumb_mid_l_cnt_null
+    102002: pelea:thumb_mid_l_cnt_null2
+    102004: pelea:thumb_mid_r_cnt
+    102006: pelea:thumb_mid_r_cnt_null
+    102008: pelea:thumb_mid_r_cnt_null3
+    102010: pelea:thumb_mid_trans_cnt
+    102012: pelea:thumb_mid_trans_cnt_null
+    102014: pelea:thumb_mid_trans_cnt_null 1
+    102016: pelea:thumb_r_cnt
+    102018: pelea:thumb_r_cnt_null
+    102020: pelea:thumb_r_cnt_null2
+    102022: pelea:thumb_tip_l_cnt
+    102024: pelea:thumb_tip_l_cnt_null
+    102026: pelea:thumb_tip_l_cnt_null2
+    102028: pelea:thumb_tip_r_cnt
+    102030: pelea:thumb_tip_r_cnt_null
+    102032: pelea:thumb_tip_r_cnt_null2
+    102034: pelea:thumb_tip_trans_cnt
+    102036: pelea:thumb_tip_trans_cnt_null
+    102038: pelea:thumb_tip_trans_cnt_null 1
+    102040: pelea:toe_trans_cnt
+    102042: pelea:toe_trans_cnt 1
+    102044: pelea:toe_trans_cnt_null1
+    102046: pelea:toe_trans_cnt_null2
+    102048: pelea:toes_l_cnt
+    102050: pelea:toes_l_cnt_null
+    102052: pelea:toes_l_cnt_null2
+    102054: pelea:toes_l_fk_ik_trans_cnt
+    102056: pelea:toes_l_fk_ik_trans_cnt_null
+    102058: pelea:toes_l_fk_ik_trans_cnt_null1
+    102060: pelea:toes_l_fk_ik_trans_cnt_null2
+    102062: pelea:toes_r_cnt
+    102064: pelea:toes_r_cnt_null
+    102066: pelea:toes_r_cnt_null2
+    102068: pelea:tongue_base_cnt
+    102070: pelea:tongue_base_cnt_null
+    102072: pelea:tongue_base_cnt_null2
+    102074: pelea:tongue_cnt1
+    102076: pelea:tongue_cnt10
+    102078: pelea:tongue_cnt11
+    102080: pelea:tongue_cnt12
+    102082: pelea:tongue_cnt13
+    102084: pelea:tongue_cnt2
+    102086: pelea:tongue_cnt3
+    102088: pelea:tongue_cnt4
+    102090: pelea:tongue_cnt5
+    102092: pelea:tongue_cnt6
+    102094: pelea:tongue_cnt7
+    102096: pelea:tongue_cnt8
+    102098: pelea:tongue_cnt9
+    102100: pelea:tongue_cnt_grp
+    102102: pelea:tongue_cnt_grp 1
+    102104: pelea:tongue_cnt_null10
+    102106: pelea:tongue_cnt_null11
+    102108: pelea:tongue_cnt_null12
+    102110: pelea:tongue_cnt_null13
+    102112: pelea:tongue_cnt_null14
+    102114: pelea:tongue_cnt_null15
+    102116: pelea:tongue_cnt_null16
+    102118: pelea:tongue_cnt_null17
+    102120: pelea:tongue_cnt_null18
+    102122: pelea:tongue_cnt_null19
+    102124: pelea:tongue_cnt_null20
+    102126: pelea:tongue_cnt_null21
+    102128: pelea:tongue_cnt_null22
+    102130: pelea:tongue_cnt_null23
+    102132: pelea:tongue_cnt_null24
+    102134: pelea:tongue_cnt_null25
+    102136: pelea:tongue_cnt_null26
+    102138: pelea:tongue_cnt_null27
+    102140: pelea:tongue_cnt_null28
+    102142: pelea:tongue_cnt_null3
+    102144: pelea:tongue_cnt_null4
+    102146: pelea:tongue_cnt_null5
+    102148: pelea:tongue_cnt_null6
+    102150: pelea:tongue_cnt_null7
+    102152: pelea:tongue_cnt_null8
+    102154: pelea:tongue_cnt_null9
+    102156: pelea:trans_cnt_grp
+    102158: pelea:upper_body_cnt_grp
+    102160: pelea:world_orient_null
+    102162: pelea:wrist_l_cnt
+    102164: pelea:wrist_l_cnt_null
+    102166: pelea:wrist_l_cnt_null2
+    102168: pelea:wrist_l_fk_trans_cnt
+    102170: pelea:wrist_l_fk_trans_cnt_null
+    102172: pelea:wrist_l_ik_cnt
+    102174: pelea:wrist_l_ik_cnt_null
+    102176: pelea:wrist_l_ik_cnt_null2
+    102178: pelea:wrist_r_cnt
+    102180: pelea:wrist_r_cnt_null
+    102182: pelea:wrist_r_cnt_null2
+    102184: pelea:wrist_r_fk_trans_cnt
+    102186: pelea:wrist_r_fk_trans_cnt_null
+    102188: pelea:wrist_r_ik_cnt
+    102190: pelea:wrist_r_ik_cnt_null
+    102192: pelea:wrist_r_ik_cnt_null2
+    102194: pelea:wrist_r_trans_cnt
+    102196: pelea:wrist_r_trans_cnt_null
+    102198: pelea:wrist_trans_cnt
+    102200: pelea:wrist_trans_cnt_null
+    102202: pelea:zombie_runner_geo
+    102204: pelea:zombie_runner_geo_grp
+    400000: //RootNode
+    400002: pelea:animation_cnt_cluster_grp
+    400004: pelea:ankle_l_cnt
+    400006: pelea:ankle_l_cnt_null
+    400008: pelea:ankle_l_cnt_null2
+    400010: pelea:ankle_l_fk_ik_trans_cnt
+    400012: pelea:ankle_l_fk_ik_trans_cnt_null
+    400014: pelea:ankle_r_cnt
+    400016: pelea:ankle_r_cnt_null
+    400018: pelea:ankle_r_cnt_null2
+    400020: pelea:ankle_r_fk_ik_trans_cnt
+    400022: pelea:ankle_r_fk_ik_trans_cnt 1
+    400024: pelea:ankle_r_fk_ik_trans_cnt 2
+    400026: pelea:ankle_r_fk_ik_trans_cnt_null
+    400028: pelea:ankle_r_fk_ik_trans_cnt_null1
+    400030: pelea:ankle_r_fk_ik_trans_cnt_null2
+    400032: pelea:ankle_r_trans_cnt
+    400034: pelea:ankle_r_trans_cnt_null
+    400036: pelea:ankle_trans_cnt
+    400038: pelea:ankle_trans_cnt_null
+    400040: pelea:arm_l_cnt
+    400042: pelea:arm_l_cnt_null
+    400044: pelea:arm_l_cnt_null2
+    400046: pelea:arm_l_cnt_null3
+    400048: pelea:arm_l_fk_trans_cnt
+    400050: pelea:arm_l_fk_trans_cnt_null
+    400052: pelea:arm_l_gimbal_cnt
+    400054: pelea:arm_l_gimbal_cnt_null
+    400056: pelea:arm_l_ik_trans_cnt
+    400058: pelea:arm_l_ik_trans_cnt 1
+    400060: pelea:arm_l_ik_trans_cnt_null
+    400062: pelea:arm_l_ik_trans_cnt_null1
+    400064: pelea:arm_l_trans_cnt_grp
+    400066: pelea:arm_r_cnt
+    400068: pelea:arm_r_cnt_null
+    400070: pelea:arm_r_cnt_null2
+    400072: pelea:arm_r_cnt_null3
+    400074: pelea:arm_r_fk_trans_cnt
+    400076: pelea:arm_r_fk_trans_cnt_null
+    400078: pelea:arm_r_gimbal_cnt
+    400080: pelea:arm_r_gimbal_cnt_null
+    400082: pelea:arm_r_ik_trans_cnt
+    400084: pelea:arm_r_ik_trans_cnt 1
+    400086: pelea:arm_r_ik_trans_cnt_null
+    400088: pelea:arm_r_ik_trans_cnt_null1
+    400090: pelea:arm_r_trans_cnt
+    400092: pelea:arm_r_trans_cnt_grp
+    400094: pelea:arm_r_trans_cnt_null
+    400096: pelea:arm_trans_cnt
+    400098: pelea:arm_trans_cnt_null
+    400100: pelea:base_trans_cnt_grp
+    400102: pelea:belly_cnt
+    400104: pelea:belly_cnt_null
+    400106: pelea:belly_cnt_null2
+    400108: pelea:belly_trans_cnt
+    400110: pelea:belly_trans_cnt 1
+    400112: pelea:belly_trans_cnt_null
+    400114: pelea:belly_trans_cnt_null2
+    400116: pelea:bone_ankle_l
+    400118: pelea:bone_ankle_r
+    400120: pelea:bone_arm_l
+    400122: pelea:bone_arm_r
+    400124: pelea:bone_belly
+    400126: pelea:bone_brow_l
+    400128: pelea:bone_brow_r
+    400130: pelea:bone_cheek_l
+    400132: pelea:bone_cheek_r
+    400134: pelea:bone_chest
+    400136: pelea:bone_clavicle_l
+    400138: pelea:bone_clavicle_r
+    400140: pelea:bone_elbow_l
+    400142: pelea:bone_elbow_r
+    400144: pelea:bone_eye_l
+    400146: pelea:bone_eye_r
+    400148: pelea:bone_finger_index_l_base
+    400150: pelea:bone_finger_index_l_mid
+    400152: pelea:bone_finger_index_l_tip
+    400154: pelea:bone_finger_index_r_base
+    400156: pelea:bone_finger_index_r_mid
+    400158: pelea:bone_finger_index_r_tip
+    400160: pelea:bone_finger_middle_l_base
+    400162: pelea:bone_finger_middle_l_mid
+    400164: pelea:bone_finger_middle_l_tip
+    400166: pelea:bone_finger_middle_r_base
+    400168: pelea:bone_finger_middle_r_mid
+    400170: pelea:bone_finger_middle_r_tip
+    400172: pelea:bone_finger_pinky_l_base
+    400174: pelea:bone_finger_pinky_l_mid
+    400176: pelea:bone_finger_pinky_l_tip
+    400178: pelea:bone_finger_pinky_r_base
+    400180: pelea:bone_finger_pinky_r_mid
+    400182: pelea:bone_finger_pinky_r_tip
+    400184: pelea:bone_finger_ring_l_base
+    400186: pelea:bone_finger_ring_l_mid
+    400188: pelea:bone_finger_ring_l_tip
+    400190: pelea:bone_finger_ring_r_base
+    400192: pelea:bone_finger_ring_r_mid
+    400194: pelea:bone_finger_ring_r_tip
+    400196: pelea:bone_head
+    400198: pelea:bone_jaw
+    400200: pelea:bone_knee_l
+    400202: pelea:bone_knee_r
+    400204: pelea:bone_levator_l
+    400206: pelea:bone_levator_r
+    400208: pelea:bone_lid_l_bottom
+    400210: pelea:bone_lid_l_top
+    400212: pelea:bone_lid_r_bottom
+    400214: pelea:bone_lid_r_top
+    400216: pelea:bone_lips_bottom
+    400218: pelea:bone_lips_l
+    400220: pelea:bone_lips_r
+    400222: pelea:bone_lips_top
+    400224: pelea:bone_neck
+    400226: pelea:bone_nose_l
+    400228: pelea:bone_nose_r
+    400230: pelea:bone_radius_l
+    400232: pelea:bone_radius_r
+    400234: pelea:bone_root
+    400236: pelea:bone_shin_l
+    400238: pelea:bone_shin_r
+    400240: pelea:bone_spine_base
+    400242: pelea:bone_spine_lower
+    400244: pelea:bone_spine_mid
+    400246: pelea:bone_spine_upper
+    400248: pelea:bone_thigh_l
+    400250: pelea:bone_thigh_r
+    400252: pelea:bone_thumb_l_base
+    400254: pelea:bone_thumb_l_mid
+    400256: pelea:bone_thumb_l_tip
+    400258: pelea:bone_thumb_r_base
+    400260: pelea:bone_thumb_r_mid
+    400262: pelea:bone_thumb_r_tip
+    400264: pelea:bone_toe_l
+    400266: pelea:bone_toe_l_end
+    400268: pelea:bone_toe_r
+    400270: pelea:bone_toe_r_end
+    400272: pelea:bone_wrist_l
+    400274: pelea:bone_wrist_r
+    400276: pelea:brow_l_cnt
+    400278: pelea:brow_l_cnt_null
+    400280: pelea:brow_l_cnt_null2
+    400282: pelea:brow_r_cnt
+    400284: pelea:brow_r_cnt_null
+    400286: pelea:brow_r_cnt_null2
+    400288: pelea:brow_r_trans_cnt
+    400290: pelea:brow_r_trans_cnt_null
+    400292: pelea:brow_r_trans_cnt_null2
+    400294: pelea:brow_trans_cnt
+    400296: pelea:brow_trans_cnt_null
+    400298: pelea:brow_trans_cnt_null2
+    400300: pelea:character_cnt
+    400302: pelea:character_cnt_null
+    400304: pelea:cheek_l_cnt
+    400306: pelea:cheek_l_cnt_null
+    400308: pelea:cheek_l_cnt_null2
+    400310: pelea:cheek_r_cnt
+    400312: pelea:cheek_r_cnt_null
+    400314: pelea:cheek_r_cnt_null2
+    400316: pelea:cheek_r_trans_cnt
+    400318: pelea:cheek_r_trans_cnt_null
+    400320: pelea:cheek_r_trans_cnt_null2
+    400322: pelea:cheek_trans_cnt
+    400324: pelea:cheek_trans_cnt_null
+    400326: pelea:cheek_trans_cnt_null2
+    400328: pelea:chest_cnt
+    400330: pelea:chest_cnt_null
+    400332: pelea:chest_fk_ik_trans_cnt
+    400334: pelea:chest_fk_ik_trans_cnt_null
+    400336: pelea:chest_trans_cnt
+    400338: pelea:chest_trans_cnt_null
+    400340: pelea:chest_trans_cnt_null2
+    400342: pelea:clavicle_l_cnt
+    400344: pelea:clavicle_l_cnt_null
+    400346: pelea:clavicle_l_cnt_null2
+    400348: pelea:clavicle_r_cnt
+    400350: pelea:clavicle_r_cnt_null
+    400352: pelea:clavicle_r_cnt_null2
+    400354: pelea:clavicle_r_trans_cnt
+    400356: pelea:clavicle_r_trans_cnt_null
+    400358: pelea:clavicle_r_trans_cnt_null2
+    400360: pelea:clavicle_trans_cnt
+    400362: pelea:clavicle_trans_cnt_null
+    400364: pelea:clavicle_trans_cnt_null2
+    400366: pelea:cluster100Handle
+    400368: pelea:cluster101Handle
+    400370: pelea:cluster102Handle
+    400372: pelea:cluster103Handle
+    400374: pelea:cluster104Handle
+    400376: pelea:cluster105Handle
+    400378: pelea:cluster106Handle
+    400380: pelea:cluster107Handle
+    400382: pelea:cluster108Handle
+    400384: pelea:cluster109Handle
+    400386: pelea:cluster10Handle
+    400388: pelea:cluster110Handle
+    400390: pelea:cluster111Handle
+    400392: pelea:cluster112Handle
+    400394: pelea:cluster113Handle
+    400396: pelea:cluster114Handle
+    400398: pelea:cluster115Handle
+    400400: pelea:cluster116Handle
+    400402: pelea:cluster117Handle
+    400404: pelea:cluster118Handle
+    400406: pelea:cluster119Handle
+    400408: pelea:cluster11Handle
+    400410: pelea:cluster120Handle
+    400412: pelea:cluster121Handle
+    400414: pelea:cluster122Handle
+    400416: pelea:cluster123Handle
+    400418: pelea:cluster124Handle
+    400420: pelea:cluster125Handle
+    400422: pelea:cluster126Handle
+    400424: pelea:cluster127Handle
+    400426: pelea:cluster128Handle
+    400428: pelea:cluster129Handle
+    400430: pelea:cluster12Handle
+    400432: pelea:cluster130Handle
+    400434: pelea:cluster131Handle
+    400436: pelea:cluster132Handle
+    400438: pelea:cluster133Handle
+    400440: pelea:cluster134Handle
+    400442: pelea:cluster135Handle
+    400444: pelea:cluster136Handle
+    400446: pelea:cluster137Handle
+    400448: pelea:cluster138Handle
+    400450: pelea:cluster139Handle
+    400452: pelea:cluster13Handle
+    400454: pelea:cluster140Handle
+    400456: pelea:cluster141Handle
+    400458: pelea:cluster142Handle
+    400460: pelea:cluster14Handle
+    400462: pelea:cluster15Handle
+    400464: pelea:cluster16Handle
+    400466: pelea:cluster17Handle
+    400468: pelea:cluster18Handle
+    400470: pelea:cluster19Handle
+    400472: pelea:cluster1Handle
+    400474: pelea:cluster20Handle
+    400476: pelea:cluster21Handle
+    400478: pelea:cluster22Handle
+    400480: pelea:cluster23Handle
+    400482: pelea:cluster24Handle
+    400484: pelea:cluster25Handle
+    400486: pelea:cluster26Handle
+    400488: pelea:cluster27Handle
+    400490: pelea:cluster28Handle
+    400492: pelea:cluster29Handle
+    400494: pelea:cluster2Handle
+    400496: pelea:cluster30Handle
+    400498: pelea:cluster31Handle
+    400500: pelea:cluster32Handle
+    400502: pelea:cluster33Handle
+    400504: pelea:cluster34Handle
+    400506: pelea:cluster35Handle
+    400508: pelea:cluster36Handle
+    400510: pelea:cluster37Handle
+    400512: pelea:cluster38Handle
+    400514: pelea:cluster39Handle
+    400516: pelea:cluster3Handle
+    400518: pelea:cluster40Handle
+    400520: pelea:cluster41Handle
+    400522: pelea:cluster42Handle
+    400524: pelea:cluster43Handle
+    400526: pelea:cluster44Handle
+    400528: pelea:cluster45Handle
+    400530: pelea:cluster46Handle
+    400532: pelea:cluster47Handle
+    400534: pelea:cluster48Handle
+    400536: pelea:cluster49Handle
+    400538: pelea:cluster4Handle
+    400540: pelea:cluster50Handle
+    400542: pelea:cluster51Handle
+    400544: pelea:cluster52Handle
+    400546: pelea:cluster53Handle
+    400548: pelea:cluster54Handle
+    400550: pelea:cluster55Handle
+    400552: pelea:cluster56Handle
+    400554: pelea:cluster57Handle
+    400556: pelea:cluster58Handle
+    400558: pelea:cluster59Handle
+    400560: pelea:cluster5Handle
+    400562: pelea:cluster60Handle
+    400564: pelea:cluster61Handle
+    400566: pelea:cluster62Handle
+    400568: pelea:cluster63Handle
+    400570: pelea:cluster64Handle
+    400572: pelea:cluster65Handle
+    400574: pelea:cluster66Handle
+    400576: pelea:cluster67Handle
+    400578: pelea:cluster68Handle
+    400580: pelea:cluster69Handle
+    400582: pelea:cluster6Handle
+    400584: pelea:cluster70Handle
+    400586: pelea:cluster71Handle
+    400588: pelea:cluster72Handle
+    400590: pelea:cluster73Handle
+    400592: pelea:cluster74Handle
+    400594: pelea:cluster75Handle
+    400596: pelea:cluster76Handle
+    400598: pelea:cluster77Handle
+    400600: pelea:cluster78Handle
+    400602: pelea:cluster79Handle
+    400604: pelea:cluster7Handle
+    400606: pelea:cluster80Handle
+    400608: pelea:cluster81Handle
+    400610: pelea:cluster82Handle
+    400612: pelea:cluster83Handle
+    400614: pelea:cluster84Handle
+    400616: pelea:cluster85Handle
+    400618: pelea:cluster86Handle
+    400620: pelea:cluster87Handle
+    400622: pelea:cluster88Handle
+    400624: pelea:cluster89Handle
+    400626: pelea:cluster8Handle
+    400628: pelea:cluster90Handle
+    400630: pelea:cluster91Handle
+    400632: pelea:cluster92Handle
+    400634: pelea:cluster93Handle
+    400636: pelea:cluster94Handle
+    400638: pelea:cluster95Handle
+    400640: pelea:cluster96Handle
+    400642: pelea:cluster97Handle
+    400644: pelea:cluster98Handle
+    400646: pelea:cluster99Handle
+    400648: pelea:cluster9Handle
+    400650: pelea:cluster_grp
+    400652: pelea:curve1
+    400654: pelea:curve2
+    400656: pelea:digits_l_anim_cnt_grp
+    400658: pelea:digits_l_trans_grp
+    400660: pelea:digits_l_trans_grp1
+    400662: pelea:digits_r_anim_cnt_grp
+    400664: pelea:elbow_l_cnt
+    400666: pelea:elbow_l_cnt_null
+    400668: pelea:elbow_l_cnt_null2
+    400670: pelea:elbow_l_fk_trans_cnt
+    400672: pelea:elbow_l_fk_trans_cnt_null
+    400674: pelea:elbow_r_cnt
+    400676: pelea:elbow_r_cnt_null
+    400678: pelea:elbow_r_cnt_null2
+    400680: pelea:elbow_r_fk_trans_cnt
+    400682: pelea:elbow_r_fk_trans_cnt_null
+    400684: pelea:elbow_r_trans_cnt
+    400686: pelea:elbow_r_trans_cnt_null
+    400688: pelea:elbow_trans_cnt
+    400690: pelea:elbow_trans_cnt_null
+    400692: pelea:eye_l_cnt
+    400694: pelea:eye_l_cnt_null
+    400696: pelea:eye_l_cnt_null2
+    400698: pelea:eye_r_cnt
+    400700: pelea:eye_r_cnt_null
+    400702: pelea:eye_r_cnt_null2
+    400704: pelea:eye_r_trans_cnt
+    400706: pelea:eye_r_trans_cnt_null
+    400708: pelea:eye_r_trans_cnt_null2
+    400710: pelea:eye_trans_cnt
+    400712: pelea:eye_trans_cnt_null
+    400714: pelea:eye_trans_cnt_null2
+    400716: pelea:eyes_cnt
+    400718: pelea:eyes_cnt_null
+    400720: pelea:eyes_cnt_null2
+    400722: pelea:face_cnt
+    400724: pelea:face_cnt_camera
+    400726: pelea:face_cnt_grp
+    400728: pelea:face_cnt_null
+    400730: pelea:face_cnt_null2
+    400732: pelea:face_trans_cnt_grp
+    400734: pelea:fibula_l_fk_ik_trans_cnt
+    400736: pelea:fibula_l_fk_ik_trans_cnt_null
+    400738: pelea:fibula_r_fk_ik_trans_cnt
+    400740: pelea:fibula_r_fk_ik_trans_cnt_null
+    400742: pelea:fibula_r_trans_cnt
+    400744: pelea:fibula_r_trans_cnt_null
+    400746: pelea:finger_middle_base_trans_cnt
+    400748: pelea:finger_middle_base_trans_cnt 1
+    400750: pelea:finger_middle_base_trans_cnt_null
+    400752: pelea:finger_middle_base_trans_cnt_null 1
+    400754: pelea:finger_middle_base_trans_cnt_null2
+    400756: pelea:finger_middle_base_trans_cnt_null2 1
+    400758: pelea:finger_middle_l_cnt
+    400760: pelea:finger_middle_l_cnt_null
+    400762: pelea:finger_middle_l_cnt_null2
+    400764: pelea:finger_middle_mid_l_cnt
+    400766: pelea:finger_middle_mid_l_cnt_null
+    400768: pelea:finger_middle_mid_l_cnt_null2
+    400770: pelea:finger_middle_mid_r_cnt
+    400772: pelea:finger_middle_mid_r_cnt_null
+    400774: pelea:finger_middle_mid_r_cnt_null2
+    400776: pelea:finger_middle_mid_trans_cnt
+    400778: pelea:finger_middle_mid_trans_cnt 1
+    400780: pelea:finger_middle_mid_trans_cnt_null
+    400782: pelea:finger_middle_mid_trans_cnt_null 1
+    400784: pelea:finger_middle_r_cnt
+    400786: pelea:finger_middle_r_cnt_null
+    400788: pelea:finger_middle_r_cnt_null2
+    400790: pelea:finger_middle_tip_l_cnt
+    400792: pelea:finger_middle_tip_l_cnt_null
+    400794: pelea:finger_middle_tip_l_cnt_null2
+    400796: pelea:finger_middle_tip_r_cnt
+    400798: pelea:finger_middle_tip_r_cnt_null
+    400800: pelea:finger_middle_tip_r_cnt_null2
+    400802: pelea:finger_middle_tip_trans_cnt
+    400804: pelea:finger_middle_tip_trans_cnt 1
+    400806: pelea:finger_middle_tip_trans_cnt_null
+    400808: pelea:finger_middle_tip_trans_cnt_null 1
+    400810: pelea:finger_pinky_base_trans_cnt
+    400812: pelea:finger_pinky_base_trans_cnt 1
+    400814: pelea:finger_pinky_base_trans_cnt_null
+    400816: pelea:finger_pinky_base_trans_cnt_null 1
+    400818: pelea:finger_pinky_base_trans_cnt_null2
+    400820: pelea:finger_pinky_base_trans_cnt_null2 1
+    400822: pelea:finger_pinky_l_cnt
+    400824: pelea:finger_pinky_l_cnt_null
+    400826: pelea:finger_pinky_l_cnt_null2
+    400828: pelea:finger_pinky_mid_l_cnt
+    400830: pelea:finger_pinky_mid_l_cnt_null
+    400832: pelea:finger_pinky_mid_l_cnt_null2
+    400834: pelea:finger_pinky_mid_r_cnt
+    400836: pelea:finger_pinky_mid_r_cnt_null
+    400838: pelea:finger_pinky_mid_r_cnt_null2
+    400840: pelea:finger_pinky_mid_trans_cnt
+    400842: pelea:finger_pinky_mid_trans_cnt 1
+    400844: pelea:finger_pinky_mid_trans_cnt_null
+    400846: pelea:finger_pinky_mid_trans_cnt_null 1
+    400848: pelea:finger_pinky_r_cnt
+    400850: pelea:finger_pinky_r_cnt_null
+    400852: pelea:finger_pinky_r_cnt_null2
+    400854: pelea:finger_pinky_tip_l_cnt
+    400856: pelea:finger_pinky_tip_l_cnt_null
+    400858: pelea:finger_pinky_tip_l_cnt_null2
+    400860: pelea:finger_pinky_tip_r_cnt
+    400862: pelea:finger_pinky_tip_r_cnt_null
+    400864: pelea:finger_pinky_tip_r_cnt_null2
+    400866: pelea:finger_pinky_tip_trans_cnt
+    400868: pelea:finger_pinky_tip_trans_cnt 1
+    400870: pelea:finger_pinky_tip_trans_cnt_null
+    400872: pelea:finger_pinky_tip_trans_cnt_null 1
+    400874: pelea:finger_pointer_base_trans_cnt
+    400876: pelea:finger_pointer_base_trans_cnt 1
+    400878: pelea:finger_pointer_base_trans_cnt_null
+    400880: pelea:finger_pointer_base_trans_cnt_null 1
+    400882: pelea:finger_pointer_base_trans_cnt_null2
+    400884: pelea:finger_pointer_base_trans_cnt_null2 1
+    400886: pelea:finger_pointer_l_cnt
+    400888: pelea:finger_pointer_l_cnt_null
+    400890: pelea:finger_pointer_l_cnt_null2
+    400892: pelea:finger_pointer_mid_l_cnt
+    400894: pelea:finger_pointer_mid_l_cnt_null
+    400896: pelea:finger_pointer_mid_l_cnt_null2
+    400898: pelea:finger_pointer_mid_r_cnt
+    400900: pelea:finger_pointer_mid_r_cnt_null
+    400902: pelea:finger_pointer_mid_r_cnt_null2
+    400904: pelea:finger_pointer_mid_trans_cnt
+    400906: pelea:finger_pointer_mid_trans_cnt 1
+    400908: pelea:finger_pointer_mid_trans_cnt_null
+    400910: pelea:finger_pointer_mid_trans_cnt_null 1
+    400912: pelea:finger_pointer_r_cnt
+    400914: pelea:finger_pointer_r_cnt_null
+    400916: pelea:finger_pointer_r_cnt_null2
+    400918: pelea:finger_pointer_tip_l_cnt
+    400920: pelea:finger_pointer_tip_l_cnt_null
+    400922: pelea:finger_pointer_tip_l_cnt_null2
+    400924: pelea:finger_pointer_tip_r_cnt
+    400926: pelea:finger_pointer_tip_r_cnt_null
+    400928: pelea:finger_pointer_tip_r_cnt_null2
+    400930: pelea:finger_pointer_tip_trans_cnt
+    400932: pelea:finger_pointer_tip_trans_cnt 1
+    400934: pelea:finger_pointer_tip_trans_cnt_null
+    400936: pelea:finger_pointer_tip_trans_cnt_null 1
+    400938: pelea:finger_ring_base_trans_cnt
+    400940: pelea:finger_ring_base_trans_cnt 1
+    400942: pelea:finger_ring_base_trans_cnt_null
+    400944: pelea:finger_ring_base_trans_cnt_null 1
+    400946: pelea:finger_ring_base_trans_cnt_null2
+    400948: pelea:finger_ring_base_trans_cnt_null2 1
+    400950: pelea:finger_ring_l_cnt
+    400952: pelea:finger_ring_l_cnt_null
+    400954: pelea:finger_ring_l_cnt_null2
+    400956: pelea:finger_ring_mid_l_cnt
+    400958: pelea:finger_ring_mid_l_cnt_null
+    400960: pelea:finger_ring_mid_l_cnt_null2
+    400962: pelea:finger_ring_mid_r_cnt
+    400964: pelea:finger_ring_mid_r_cnt_null
+    400966: pelea:finger_ring_mid_r_cnt_null2
+    400968: pelea:finger_ring_mid_trans_cnt
+    400970: pelea:finger_ring_mid_trans_cnt 1
+    400972: pelea:finger_ring_mid_trans_cnt_null
+    400974: pelea:finger_ring_mid_trans_cnt_null 1
+    400976: pelea:finger_ring_r_cnt
+    400978: pelea:finger_ring_r_cnt_null
+    400980: pelea:finger_ring_r_cnt_null2
+    400982: pelea:finger_ring_tip_l_cnt
+    400984: pelea:finger_ring_tip_l_cnt_null
+    400986: pelea:finger_ring_tip_l_cnt_null2
+    400988: pelea:finger_ring_tip_r_cnt
+    400990: pelea:finger_ring_tip_r_cnt_null
+    400992: pelea:finger_ring_tip_r_cnt_null2
+    400994: pelea:finger_ring_tip_trans_cnt
+    400996: pelea:finger_ring_tip_trans_cnt 1
+    400998: pelea:fk_bone_ankle_l
+    401000: pelea:fk_bone_ankle_r
+    401002: pelea:fk_bone_arm_l
+    401004: pelea:fk_bone_arm_l 1
+    401006: pelea:fk_bone_arm_r
+    401008: pelea:fk_bone_arm_r 1
+    401010: pelea:fk_bone_brow_l
+    401012: pelea:fk_bone_brow_r
+    401014: pelea:fk_bone_cheek_l
+    401016: pelea:fk_bone_cheek_r
+    401018: pelea:fk_bone_chest
+    401020: pelea:fk_bone_clavicle_l
+    401022: pelea:fk_bone_clavicle_l1
+    401024: pelea:fk_bone_clavicle_r
+    401026: pelea:fk_bone_clavicle_r1
+    401028: pelea:fk_bone_elbow_l
+    401030: pelea:fk_bone_elbow_l 1
+    401032: pelea:fk_bone_elbow_r
+    401034: pelea:fk_bone_elbow_r 1
+    401036: pelea:fk_bone_eye_l
+    401038: pelea:fk_bone_eye_r
+    401040: pelea:fk_bone_finger_index_l_base
+    401042: pelea:fk_bone_finger_index_l_base 1
+    401044: pelea:fk_bone_finger_index_l_mid
+    401046: pelea:fk_bone_finger_index_l_mid 1
+    401048: pelea:fk_bone_finger_index_l_tip
+    401050: pelea:fk_bone_finger_index_l_tip 1
+    401052: pelea:fk_bone_finger_index_r_base
+    401054: pelea:fk_bone_finger_index_r_base 1
+    401056: pelea:fk_bone_finger_index_r_mid
+    401058: pelea:fk_bone_finger_index_r_mid 1
+    401060: pelea:fk_bone_finger_index_r_tip
+    401062: pelea:fk_bone_finger_index_r_tip 1
+    401064: pelea:fk_bone_finger_middle_l_base
+    401066: pelea:fk_bone_finger_middle_l_base 1
+    401068: pelea:fk_bone_finger_middle_l_mid
+    401070: pelea:fk_bone_finger_middle_l_mid 1
+    401072: pelea:fk_bone_finger_middle_l_tip
+    401074: pelea:fk_bone_finger_middle_l_tip 1
+    401076: pelea:fk_bone_finger_middle_r_base
+    401078: pelea:fk_bone_finger_middle_r_base 1
+    401080: pelea:fk_bone_finger_middle_r_mid
+    401082: pelea:fk_bone_finger_middle_r_mid 1
+    401084: pelea:fk_bone_finger_middle_r_tip
+    401086: pelea:fk_bone_finger_middle_r_tip 1
+    401088: pelea:fk_bone_finger_pinky_l_base
+    401090: pelea:fk_bone_finger_pinky_l_base 1
+    401092: pelea:fk_bone_finger_pinky_l_mid
+    401094: pelea:fk_bone_finger_pinky_l_mid 1
+    401096: pelea:fk_bone_finger_pinky_l_tip
+    401098: pelea:fk_bone_finger_pinky_l_tip 1
+    401100: pelea:fk_bone_finger_pinky_r_base
+    401102: pelea:fk_bone_finger_pinky_r_base 1
+    401104: pelea:fk_bone_finger_pinky_r_mid
+    401106: pelea:fk_bone_finger_pinky_r_mid 1
+    401108: pelea:fk_bone_finger_pinky_r_tip
+    401110: pelea:fk_bone_finger_pinky_r_tip 1
+    401112: pelea:fk_bone_finger_ring_l_base
+    401114: pelea:fk_bone_finger_ring_l_base 1
+    401116: pelea:fk_bone_finger_ring_l_mid
+    401118: pelea:fk_bone_finger_ring_l_mid 1
+    401120: pelea:fk_bone_finger_ring_l_tip
+    401122: pelea:fk_bone_finger_ring_l_tip 1
+    401124: pelea:fk_bone_finger_ring_r_base
+    401126: pelea:fk_bone_finger_ring_r_base 1
+    401128: pelea:fk_bone_finger_ring_r_mid
+    401130: pelea:fk_bone_finger_ring_r_mid 1
+    401132: pelea:fk_bone_finger_ring_r_tip
+    401134: pelea:fk_bone_finger_ring_r_tip 1
+    401136: pelea:fk_bone_head
+    401138: pelea:fk_bone_jaw
+    401140: pelea:fk_bone_knee_l
+    401142: pelea:fk_bone_knee_r
+    401144: pelea:fk_bone_levator_l
+    401146: pelea:fk_bone_levator_r
+    401148: pelea:fk_bone_lid_l_bottom
+    401150: pelea:fk_bone_lid_l_top
+    401152: pelea:fk_bone_lid_r_bottom
+    401154: pelea:fk_bone_lid_r_top
+    401156: pelea:fk_bone_lips_bottom
+    401158: pelea:fk_bone_lips_l
+    401160: pelea:fk_bone_lips_r
+    401162: pelea:fk_bone_lips_top
+    401164: pelea:fk_bone_neck
+    401166: pelea:fk_bone_nose_l
+    401168: pelea:fk_bone_nose_r
+    401170: pelea:fk_bone_radius_l
+    401172: pelea:fk_bone_radius_l 1
+    401174: pelea:fk_bone_radius_r
+    401176: pelea:fk_bone_radius_r 1
+    401178: pelea:fk_bone_root
+    401180: pelea:fk_bone_shin_l
+    401182: pelea:fk_bone_shin_r
+    401184: pelea:fk_bone_spine_base
+    401186: pelea:fk_bone_spine_lower
+    401188: pelea:fk_bone_spine_mid
+    401190: pelea:fk_bone_spine_upper
+    401192: pelea:fk_bone_thigh_l
+    401194: pelea:fk_bone_thigh_r
+    401196: pelea:fk_bone_thumb_l_base
+    401198: pelea:fk_bone_thumb_l_base 1
+    401200: pelea:fk_bone_thumb_l_mid
+    401202: pelea:fk_bone_thumb_l_mid 1
+    401204: pelea:fk_bone_thumb_l_tip
+    401206: pelea:fk_bone_thumb_l_tip 1
+    401208: pelea:fk_bone_thumb_r_base
+    401210: pelea:fk_bone_thumb_r_base 1
+    401212: pelea:fk_bone_thumb_r_mid
+    401214: pelea:fk_bone_thumb_r_mid 1
+    401216: pelea:fk_bone_thumb_r_tip
+    401218: pelea:fk_bone_thumb_r_tip 1
+    401220: pelea:fk_bone_toe_l
+    401222: pelea:fk_bone_toe_l_end
+    401224: pelea:fk_bone_toe_r
+    401226: pelea:fk_bone_toe_r_end
+    401228: pelea:fk_bone_wrist_l
+    401230: pelea:fk_bone_wrist_l 1
+    401232: pelea:fk_bone_wrist_r
+    401234: pelea:fk_bone_wrist_r 1
+    401236: pelea:foot_l_ik_cnt
+    401238: pelea:foot_l_ik_cnt_null
+    401240: pelea:foot_l_ik_cnt_null2
+    401242: pelea:foot_r_ik_cnt
+    401244: pelea:foot_r_ik_cnt_null
+    401246: pelea:foot_r_ik_cnt_null2
+    401248: pelea:fringer_ring_tip_trans_cnt_null
+    401250: pelea:fringer_ring_tip_trans_cnt_null 1
+    401252: pelea:geometry_grp
+    401254: pelea:group10
+    401256: pelea:group11
+    401258: pelea:group12
+    401260: pelea:group13
+    401262: pelea:group14
+    401264: pelea:group15
+    401266: pelea:group16
+    401268: pelea:group17
+    401270: pelea:group18
+    401272: pelea:group19
+    401274: pelea:group20
+    401276: pelea:group3
+    401278: pelea:group3 1
+    401280: pelea:group3 10
+    401282: pelea:group3 11
+    401284: pelea:group3 12
+    401286: pelea:group3 13
+    401288: pelea:group3 14
+    401290: pelea:group3 15
+    401292: pelea:group3 16
+    401294: pelea:group3 17
+    401296: pelea:group3 18
+    401298: pelea:group3 19
+    401300: pelea:group3 2
+    401302: pelea:group3 20
+    401304: pelea:group3 21
+    401306: pelea:group3 22
+    401308: pelea:group3 23
+    401310: pelea:group3 24
+    401312: pelea:group3 25
+    401314: pelea:group3 26
+    401316: pelea:group3 27
+    401318: pelea:group3 28
+    401320: pelea:group3 29
+    401322: pelea:group3 3
+    401324: pelea:group3 30
+    401326: pelea:group3 31
+    401328: pelea:group3 32
+    401330: pelea:group3 33
+    401332: pelea:group3 34
+    401334: pelea:group3 35
+    401336: pelea:group3 36
+    401338: pelea:group3 4
+    401340: pelea:group3 5
+    401342: pelea:group3 6
+    401344: pelea:group3 7
+    401346: pelea:group3 8
+    401348: pelea:group3 9
+    401350: pelea:group38
+    401352: pelea:group39
+    401354: pelea:group4
+    401356: pelea:group40
+    401358: pelea:group41
+    401360: pelea:group42
+    401362: pelea:group43
+    401364: pelea:group44
+    401366: pelea:group45
+    401368: pelea:group46
+    401370: pelea:group47
+    401372: pelea:group48
+    401374: pelea:group49
+    401376: pelea:group5
+    401378: pelea:group50
+    401380: pelea:group51
+    401382: pelea:group52
+    401384: pelea:group53
+    401386: pelea:group54
+    401388: pelea:group55
+    401390: pelea:group57
+    401392: pelea:group6
+    401394: pelea:group7
+    401396: pelea:group8
+    401398: pelea:group82
+    401400: pelea:group83
+    401402: pelea:group9
+    401404: pelea:hand_ik_cnt_grp
+    401406: pelea:head_cnt
+    401408: pelea:head_cnt_null
+    401410: pelea:head_cnt_null2
+    401412: pelea:head_trans_cnt
+    401414: pelea:head_trans_cnt_null
+    401416: pelea:head_trans_cnt_null2
+    401418: pelea:heel_l_cnt
+    401420: pelea:heel_l_cnt 1
+    401422: pelea:heel_l_cnt_null
+    401424: pelea:heel_l_cnt_null1
+    401426: pelea:heel_r_cnt
+    401428: pelea:heel_r_cnt 1
+    401430: pelea:heel_r_cnt_null
+    401432: pelea:heel_r_cnt_null1
+    401434: pelea:helper_nodes_grp
+    401436: pelea:hips_cnt
+    401438: pelea:hips_cnt_null
+    401440: pelea:ik_bone_ankle_l
+    401442: pelea:ik_bone_ankle_l 1
+    401444: pelea:ik_bone_ankle_r
+    401446: pelea:ik_bone_ankle_r 1
+    401448: pelea:ik_bone_arm_l
+    401450: pelea:ik_bone_arm_r
+    401452: pelea:ik_bone_chest
+    401454: pelea:ik_bone_clavicle_l
+    401456: pelea:ik_bone_clavicle_r
+    401458: pelea:ik_bone_elbow_l
+    401460: pelea:ik_bone_elbow_r
+    401462: pelea:ik_bone_knee_l
+    401464: pelea:ik_bone_knee_l 1
+    401466: pelea:ik_bone_knee_r
+    401468: pelea:ik_bone_knee_r 1
+    401470: pelea:ik_bone_radius_l
+    401472: pelea:ik_bone_radius_r
+    401474: pelea:ik_bone_root
+    401476: pelea:ik_bone_shin_l
+    401478: pelea:ik_bone_shin_l 1
+    401480: pelea:ik_bone_shin_r
+    401482: pelea:ik_bone_shin_r 1
+    401484: pelea:ik_bone_spine_base
+    401486: pelea:ik_bone_spine_lower
+    401488: pelea:ik_bone_spine_mid
+    401490: pelea:ik_bone_spine_upper
+    401492: pelea:ik_bone_thigh_l
+    401494: pelea:ik_bone_thigh_l1
+    401496: pelea:ik_bone_thigh_l2
+    401498: pelea:ik_bone_thigh_r
+    401500: pelea:ik_bone_thigh_r1
+    401502: pelea:ik_bone_thigh_r2
+    401504: pelea:ik_bone_toe_l
+    401506: pelea:ik_bone_toe_l 1
+    401508: pelea:ik_bone_toe_l_end
+    401510: pelea:ik_bone_toe_l_end 1
+    401512: pelea:ik_bone_toe_r
+    401514: pelea:ik_bone_toe_r 1
+    401516: pelea:ik_bone_toe_r_end
+    401518: pelea:ik_bone_toe_r_end 1
+    401520: pelea:ik_bone_wrist_l
+    401522: pelea:ik_bone_wrist_r
+    401524: pelea:ik_trans_cnt_grp
+    401526: pelea:ikHandle11
+    401528: pelea:ikHandle13
+    401530: pelea:ikHandle15
+    401532: pelea:ikHandle16
+    401534: pelea:ikHandle17
+    401536: pelea:ikHandle18
+    401538: pelea:ikHandle19
+    401540: pelea:jaw_cnt
+    401542: pelea:jaw_cnt_null
+    401544: pelea:jaw_cnt_null2
+    401546: pelea:jaw_trans_cnt
+    401548: pelea:jaw_trans_cnt_null
+    401550: pelea:jaw_trans_cnt_null2
+    401552: pelea:knee_l_cnt
+    401554: pelea:knee_l_cnt_null
+    401556: pelea:knee_l_cnt_null2
+    401558: pelea:knee_l_fk_ik_trans_cnt
+    401560: pelea:knee_l_fk_ik_trans_cnt_null
+    401562: pelea:knee_r_cnt
+    401564: pelea:knee_r_cnt_null
+    401566: pelea:knee_r_cnt_null2
+    401568: pelea:knee_r_fk_ik_trans_cnt
+    401570: pelea:knee_r_fk_ik_trans_cnt_null
+    401572: pelea:knee_r_trans_cnt
+    401574: pelea:knee_r_trans_cnt_null
+    401576: pelea:knee_trans_cnt
+    401578: pelea:knee_trans_cnt_null
+    401580: pelea:leg_l_ikHandle
+    401582: pelea:leg_l_trans_grp
+    401584: pelea:leg_l_trans_orient
+    401586: pelea:leg_l_trans_orient_null
+    401588: pelea:leg_r_trans_grp
+    401590: pelea:levator_l_cnt
+    401592: pelea:levator_l_cnt_null
+    401594: pelea:levator_l_cnt_null2
+    401596: pelea:levator_r_cnt
+    401598: pelea:levator_r_cnt_null
+    401600: pelea:levator_r_cnt_null2
+    401602: pelea:levator_r_trans_cnt
+    401604: pelea:levator_r_trans_cnt_null
+    401606: pelea:levator_r_trans_cnt_null2
+    401608: pelea:levator_trans_cnt
+    401610: pelea:levator_trans_cnt_null
+    401612: pelea:levator_trans_cnt_null2
+    401614: pelea:lid_l_bottom_cnt
+    401616: pelea:lid_l_bottom_cnt_null
+    401618: pelea:lid_l_bottom_cnt_null2
+    401620: pelea:lid_l_top_cnt
+    401622: pelea:lid_l_top_cnt_null
+    401624: pelea:lid_l_top_cnt_null2
+    401626: pelea:lid_r_bottom_cnt
+    401628: pelea:lid_r_bottom_cnt_null
+    401630: pelea:lid_r_bottom_cnt_null2
+    401632: pelea:lid_r_top_cnt
+    401634: pelea:lid_r_top_cnt_null
+    401636: pelea:lid_r_top_cnt_null2
+    401638: pelea:lids_r_trans_cnt
+    401640: pelea:lids_r_trans_cnt_null
+    401642: pelea:lids_r_trans_cnt_null2
+    401644: pelea:lids_trans_cnt
+    401646: pelea:lids_trans_cnt_null
+    401648: pelea:lids_trans_cnt_null2
+    401650: pelea:lip_bottom_cnt
+    401652: pelea:lip_bottom_cnt_null
+    401654: pelea:lip_bottom_cnt_null2
+    401656: pelea:lip_top_cnt
+    401658: pelea:lip_top_cnt_null
+    401660: pelea:lip_top_cnt_null2
+    401662: pelea:lip_trans_bottom_cnt
+    401664: pelea:lip_trans_bottom_cnt_null
+    401666: pelea:lip_trans_bottom_cnt_null2
+    401668: pelea:lip_trans_top_cnt
+    401670: pelea:lip_trans_top_cnt_null
+    401672: pelea:lip_trans_top_cnt_null2
+    401674: pelea:lips_l_cnt
+    401676: pelea:lips_l_cnt_null
+    401678: pelea:lips_l_cnt_null2
+    401680: pelea:lips_l_trans_cnt
+    401682: pelea:lips_l_trans_cnt_null
+    401684: pelea:lips_l_trans_cnt_null2
+    401686: pelea:lips_r_cnt
+    401688: pelea:lips_r_cnt_null
+    401690: pelea:lips_r_cnt_null2
+    401692: pelea:lips_r_trans_cnt
+    401694: pelea:lips_r_trans_cnt_null
+    401696: pelea:lips_r_trans_cnt_null2
+    401698: pelea:locator2
+    401700: pelea:locator2 1
+    401702: pelea:locator2 10
+    401704: pelea:locator2 11
+    401706: pelea:locator2 12
+    401708: pelea:locator2 13
+    401710: pelea:locator2 14
+    401712: pelea:locator2 15
+    401714: pelea:locator2 16
+    401716: pelea:locator2 17
+    401718: pelea:locator2 18
+    401720: pelea:locator2 19
+    401722: pelea:locator2 2
+    401724: pelea:locator2 20
+    401726: pelea:locator2 21
+    401728: pelea:locator2 22
+    401730: pelea:locator2 23
+    401732: pelea:locator2 24
+    401734: pelea:locator2 25
+    401736: pelea:locator2 26
+    401738: pelea:locator2 27
+    401740: pelea:locator2 28
+    401742: pelea:locator2 29
+    401744: pelea:locator2 3
+    401746: pelea:locator2 30
+    401748: pelea:locator2 31
+    401750: pelea:locator2 32
+    401752: pelea:locator2 33
+    401754: pelea:locator2 34
+    401756: pelea:locator2 35
+    401758: pelea:locator2 36
+    401760: pelea:locator2 4
+    401762: pelea:locator2 5
+    401764: pelea:locator2 6
+    401766: pelea:locator2 7
+    401768: pelea:locator2 8
+    401770: pelea:locator2 9
+    401772: pelea:locator3
+    401774: pelea:locator9
+    401776: pelea:neck_cnt_null
+    401778: pelea:neck_cnt_null 1
+    401780: pelea:neck_cnt_null2
+    401782: pelea:neck_trans_cnt
+    401784: pelea:neck_trans_cnt_null
+    401786: pelea:neck_trans_cnt_null2
+    401788: pelea:nose_cnt
+    401790: pelea:nose_cnt_null
+    401792: pelea:nose_cnt_null2
+    401794: pelea:nose_r_trans_cnt
+    401796: pelea:nose_r_trans_cnt_null
+    401798: pelea:nose_r_trans_cnt_null2
+    401800: pelea:nose_trans_cnt
+    401802: pelea:nose_trans_cnt_null
+    401804: pelea:nose_trans_cnt_null2
+    401806: pelea:radiul_trans_cnt
+    401808: pelea:radius_l_cnt
+    401810: pelea:radius_l_cnt_null
+    401812: pelea:radius_l_cnt_null2
+    401814: pelea:radius_l_fk_trans_cnt
+    401816: pelea:radius_l_fk_trans_cnt_null
+    401818: pelea:radius_r_cnt
+    401820: pelea:radius_r_cnt_null
+    401822: pelea:radius_r_cnt_null2
+    401824: pelea:radius_r_fk_trans_cnt
+    401826: pelea:radius_r_fk_trans_cnt_null
+    401828: pelea:radius_r_trans_cnt
+    401830: pelea:radius_r_trans_cnt_null
+    401832: pelea:radius_trans_cnt_null
+    401834: pelea:retarget_cnt_cluster_grp
+    401836: pelea:root_cnt
+    401838: pelea:root_l_ik_cnt
+    401840: pelea:root_l_ik_cnt_null
+    401842: pelea:root_l_ik_cnt_null2
+    401844: pelea:root_r_ik_cnt
+    401846: pelea:root_r_ik_cnt_null
+    401848: pelea:root_r_ik_cnt_null2
+    401850: pelea:root_trans_cnt
+    401852: pelea:shin_l_cnt
+    401854: pelea:shin_l_cnt_null
+    401856: pelea:shin_l_cnt_null2
+    401858: pelea:shin_r_cnt
+    401860: pelea:shin_r_cnt_null
+    401862: pelea:shin_r_cnt_null2
+    401864: pelea:shin_trans_cnt
+    401866: pelea:shin_trans_cnt_null
+    401868: pelea:shoulder_l_trans_orient
+    401870: pelea:shoulder_l_trans_orient_null
+    401872: pelea:shoulder_r_trans_orient
+    401874: pelea:shoulder_r_trans_orient_null
+    401876: pelea:spine_base_cnt
+    401878: pelea:spine_base_cnt_null
+    401880: pelea:spine_base_fk_ik_trans_cnt
+    401882: pelea:spine_base_fk_ik_trans_cnt_null
+    401884: pelea:spine_base_trans_cnt
+    401886: pelea:spine_base_trans_cnt_null
+    401888: pelea:spine_base_trans_cnt_null2
+    401890: pelea:spine_low_cnt
+    401892: pelea:spine_low_cnt_null
+    401894: pelea:spine_low_fk_ik_trans_cnt
+    401896: pelea:spine_low_fk_ik_trans_cnt_null
+    401898: pelea:spine_low_trans_cnt
+    401900: pelea:spine_low_trans_cnt_null
+    401902: pelea:spine_low_trans_cnt_null 1
+    401904: pelea:spine_low_trans_cnt_null5
+    401906: pelea:spine_low_trans_cnt_null6
+    401908: pelea:spine_mid_cnt
+    401910: pelea:spine_mid_cnt_null
+    401912: pelea:spine_mid_fk_ik_trans_cnt
+    401914: pelea:spine_mid_fk_ik_trans_cnt_null
+    401916: pelea:spine_mid_trans_cnt
+    401918: pelea:spine_mid_trans_cnt_null
+    401920: pelea:spine_mid_trans_cnt_null2
+    401922: pelea:spine_trans_cnt_grp
+    401924: pelea:spine_trans_fk_ik_cnt_grp
+    401926: pelea:spine_upper_cnt
+    401928: pelea:spine_upper_cnt_null
+    401930: pelea:spine_upper_fk_ik_trans_cnt
+    401932: pelea:spine_upper_fk_ik_trans_cnt_null
+    401934: pelea:spine_upper_trans_cnt
+    401936: pelea:spine_upper_trans_cnt 1
+    401938: pelea:spine_upper_trans_cnt 2
+    401940: pelea:spine_upper_trans_cnt_null
+    401942: pelea:spine_upper_trans_cnt_null 1
+    401944: pelea:spine_upper_trans_cnt_null2
+    401946: pelea:spine_upper_trans_cnt_null5
+    401948: pelea:thigh_l_cnt
+    401950: pelea:thigh_l_cnt_null
+    401952: pelea:thigh_l_cnt_null2
+    401954: pelea:thigh_l_fk_ik_trans_cnt
+    401956: pelea:thigh_l_fk_ik_trans_cnt_null
+    401958: pelea:thigh_r_cnt
+    401960: pelea:thigh_r_cnt_null
+    401962: pelea:thigh_r_cnt_null3
+    401964: pelea:thigh_r_fk_ik_trans_cnt
+    401966: pelea:thigh_r_fk_ik_trans_cnt_null
+    401968: pelea:thigh_r_trans_cnt
+    401970: pelea:thigh_r_trans_cnt_null
+    401972: pelea:thigh_trans_cnt
+    401974: pelea:thigh_trans_cnt_null
+    401976: pelea:thumb_base_trans_cnt
+    401978: pelea:thumb_base_trans_cnt_null
+    401980: pelea:thumb_base_trans_cnt_null 1
+    401982: pelea:thumb_base_trans_cnt_null2
+    401984: pelea:thumb_base_trans_cnt_null2 1
+    401986: pelea:thumb_l_base_trans_cnt
+    401988: pelea:thumb_l_cnt
+    401990: pelea:thumb_l_cnt_null
+    401992: pelea:thumb_l_cnt_null2
+    401994: pelea:thumb_l_mid_trans_cnt
+    401996: pelea:thumb_l_tip_trans_cnt
+    401998: pelea:thumb_mid_l_cnt
+    402000: pelea:thumb_mid_l_cnt_null
+    402002: pelea:thumb_mid_l_cnt_null2
+    402004: pelea:thumb_mid_r_cnt
+    402006: pelea:thumb_mid_r_cnt_null
+    402008: pelea:thumb_mid_r_cnt_null3
+    402010: pelea:thumb_mid_trans_cnt
+    402012: pelea:thumb_mid_trans_cnt_null
+    402014: pelea:thumb_mid_trans_cnt_null 1
+    402016: pelea:thumb_r_cnt
+    402018: pelea:thumb_r_cnt_null
+    402020: pelea:thumb_r_cnt_null2
+    402022: pelea:thumb_tip_l_cnt
+    402024: pelea:thumb_tip_l_cnt_null
+    402026: pelea:thumb_tip_l_cnt_null2
+    402028: pelea:thumb_tip_r_cnt
+    402030: pelea:thumb_tip_r_cnt_null
+    402032: pelea:thumb_tip_r_cnt_null2
+    402034: pelea:thumb_tip_trans_cnt
+    402036: pelea:thumb_tip_trans_cnt_null
+    402038: pelea:thumb_tip_trans_cnt_null 1
+    402040: pelea:toe_trans_cnt
+    402042: pelea:toe_trans_cnt 1
+    402044: pelea:toe_trans_cnt_null1
+    402046: pelea:toe_trans_cnt_null2
+    402048: pelea:toes_l_cnt
+    402050: pelea:toes_l_cnt_null
+    402052: pelea:toes_l_cnt_null2
+    402054: pelea:toes_l_fk_ik_trans_cnt
+    402056: pelea:toes_l_fk_ik_trans_cnt_null
+    402058: pelea:toes_l_fk_ik_trans_cnt_null1
+    402060: pelea:toes_l_fk_ik_trans_cnt_null2
+    402062: pelea:toes_r_cnt
+    402064: pelea:toes_r_cnt_null
+    402066: pelea:toes_r_cnt_null2
+    402068: pelea:tongue_base_cnt
+    402070: pelea:tongue_base_cnt_null
+    402072: pelea:tongue_base_cnt_null2
+    402074: pelea:tongue_cnt1
+    402076: pelea:tongue_cnt10
+    402078: pelea:tongue_cnt11
+    402080: pelea:tongue_cnt12
+    402082: pelea:tongue_cnt13
+    402084: pelea:tongue_cnt2
+    402086: pelea:tongue_cnt3
+    402088: pelea:tongue_cnt4
+    402090: pelea:tongue_cnt5
+    402092: pelea:tongue_cnt6
+    402094: pelea:tongue_cnt7
+    402096: pelea:tongue_cnt8
+    402098: pelea:tongue_cnt9
+    402100: pelea:tongue_cnt_grp
+    402102: pelea:tongue_cnt_grp 1
+    402104: pelea:tongue_cnt_null10
+    402106: pelea:tongue_cnt_null11
+    402108: pelea:tongue_cnt_null12
+    402110: pelea:tongue_cnt_null13
+    402112: pelea:tongue_cnt_null14
+    402114: pelea:tongue_cnt_null15
+    402116: pelea:tongue_cnt_null16
+    402118: pelea:tongue_cnt_null17
+    402120: pelea:tongue_cnt_null18
+    402122: pelea:tongue_cnt_null19
+    402124: pelea:tongue_cnt_null20
+    402126: pelea:tongue_cnt_null21
+    402128: pelea:tongue_cnt_null22
+    402130: pelea:tongue_cnt_null23
+    402132: pelea:tongue_cnt_null24
+    402134: pelea:tongue_cnt_null25
+    402136: pelea:tongue_cnt_null26
+    402138: pelea:tongue_cnt_null27
+    402140: pelea:tongue_cnt_null28
+    402142: pelea:tongue_cnt_null3
+    402144: pelea:tongue_cnt_null4
+    402146: pelea:tongue_cnt_null5
+    402148: pelea:tongue_cnt_null6
+    402150: pelea:tongue_cnt_null7
+    402152: pelea:tongue_cnt_null8
+    402154: pelea:tongue_cnt_null9
+    402156: pelea:trans_cnt_grp
+    402158: pelea:upper_body_cnt_grp
+    402160: pelea:world_orient_null
+    402162: pelea:wrist_l_cnt
+    402164: pelea:wrist_l_cnt_null
+    402166: pelea:wrist_l_cnt_null2
+    402168: pelea:wrist_l_fk_trans_cnt
+    402170: pelea:wrist_l_fk_trans_cnt_null
+    402172: pelea:wrist_l_ik_cnt
+    402174: pelea:wrist_l_ik_cnt_null
+    402176: pelea:wrist_l_ik_cnt_null2
+    402178: pelea:wrist_r_cnt
+    402180: pelea:wrist_r_cnt_null
+    402182: pelea:wrist_r_cnt_null2
+    402184: pelea:wrist_r_fk_trans_cnt
+    402186: pelea:wrist_r_fk_trans_cnt_null
+    402188: pelea:wrist_r_ik_cnt
+    402190: pelea:wrist_r_ik_cnt_null
+    402192: pelea:wrist_r_ik_cnt_null2
+    402194: pelea:wrist_r_trans_cnt
+    402196: pelea:wrist_r_trans_cnt_null
+    402198: pelea:wrist_trans_cnt
+    402200: pelea:wrist_trans_cnt_null
+    402202: pelea:zombie_runner_geo
+    402204: pelea:zombie_runner_geo_grp
+    4300000: pelea:zombie_runner_geo
+    9500000: //RootNode
+    13700000: pelea:zombie_runner_geo
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

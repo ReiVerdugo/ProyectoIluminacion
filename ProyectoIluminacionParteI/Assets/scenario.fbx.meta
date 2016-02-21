@@ -1,0 +1,158 @@
+fileFormatVersion: 2
+guid: 27af1a262327041b8a2ad4e03719e3d0
+timeCreated: 1455634355
+licenseType: Free
+ModelImporter:
+  serializedVersion: 18
+  fileIDToRecycleName:
+    100000: grpTerreno01
+    100002: grpTerreno02
+    100004: mBaseLamparas01
+    100006: mBaseLuz01
+    100008: mCarta_01
+    100010: mCarta_01 1
+    100012: mCasa01
+    100014: mCasa02
+    100016: mCerco01
+    100018: mCerco01 1
+    100020: mPino01
+    100022: mPino02
+    100024: mPino03
+    100026: mPino04
+    100028: mPlanta01
+    100030: mPlanta02
+    100032: mTerreno01
+    100034: rocas01
+    100036: //RootNode
+    400000: grpTerreno01
+    400002: grpTerreno02
+    400004: mBaseLamparas01
+    400006: mBaseLuz01
+    400008: mCarta_01
+    400010: mCarta_01 1
+    400012: mCasa01
+    400014: mCasa02
+    400016: mCerco01
+    400018: mCerco01 1
+    400020: mPino01
+    400022: mPino02
+    400024: mPino03
+    400026: mPino04
+    400028: mPlanta01
+    400030: mPlanta02
+    400032: mTerreno01
+    400034: rocas01
+    400036: //RootNode
+    2300000: mBaseLamparas01
+    2300002: mBaseLuz01
+    2300004: mCarta_01
+    2300006: mCarta_01 1
+    2300008: mCasa01
+    2300010: mCasa02
+    2300012: mCerco01
+    2300014: mCerco01 1
+    2300016: mPino01
+    2300018: mPino02
+    2300020: mPino03
+    2300022: mPino04
+    2300024: mPlanta01
+    2300026: mPlanta02
+    2300028: mTerreno01
+    2300030: rocas01
+    3300000: mBaseLamparas01
+    3300002: mBaseLuz01
+    3300004: mCarta_01
+    3300006: mCarta_01 1
+    3300008: mCasa01
+    3300010: mCasa02
+    3300012: mCerco01
+    3300014: mCerco01 1
+    3300016: mPino01
+    3300018: mPino02
+    3300020: mPino03
+    3300022: mPino04
+    3300024: mPlanta01
+    3300026: mPlanta02
+    3300028: mTerreno01
+    3300030: rocas01
+    4300000: mCasa01
+    4300002: mCerco01
+    4300004: mCarta_01
+    4300006: mCasa02
+    4300008: mCerco01
+    4300010: mCarta_01
+    4300012: mTerreno01
+    4300014: rocas01
+    4300016: mPino01
+    4300018: mPino02
+    4300020: mPino03
+    4300022: mPino04
+    4300024: mPlanta01
+    4300026: mPlanta02
+    4300028: mBaseLamparas01
+    4300030: mBaseLuz01
+    9500000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
